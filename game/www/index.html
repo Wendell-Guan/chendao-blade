@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>刀客 · 陈霜 —— 第一关（原创原型）</title>
+<style>
+  html,body{margin:0;height:100%;background:#05070b;color:#cfe0f5;font-family:monospace;overflow:hidden}
+  #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+  canvas{image-rendering:pixelated;image-rendering:crisp-edges;background:#0c0e14;
+         box-shadow:0 0 0 1px #1c2431,0 0 40px rgba(90,160,255,.15)}
+  #touch{position:fixed;inset:auto 0 0 0;height:120px;display:none;justify-content:space-between;
+         padding:8px 12px;box-sizing:border-box;user-select:none;-webkit-user-select:none;touch-action:none}
+  #touch .side{display:flex;gap:10px;align-items:flex-end}
+  .btn{width:62px;height:62px;border-radius:50%;background:rgba(60,80,110,.35);border:1px solid rgba(140,180,230,.35);
+       color:#dbe9fb;display:flex;align-items:center;justify-content:center;font-size:18px}
+  .btn:active{background:rgba(120,200,255,.35)}
+  #hint{position:fixed;top:8px;left:12px;font-size:12px;color:#6f8299}
+  @media (pointer:coarse){#touch{display:flex}}
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="cv" width="480" height="270"></canvas></div>
+<div id="hint">A/D 移动 · 空格 跳 · J 挥刀 · K 化劲 · Shift 冲刺 · R 重来</div>
+<div id="touch">
+  <div class="side">
+    <div class="btn" data-k="left">◀</div>
+    <div class="btn" data-k="right">▶</div>
+  </div>
+  <div class="side">
+    <div class="btn" data-k="parry">K</div>
+    <div class="btn" data-k="attack">J</div>
+    <div class="btn" data-k="dash">冲</div>
+    <div class="btn" data-k="jump">跳</div>
+  </div>
+</div>
+<script src="audio.js"></script>
+<script src="game.js"></script>
+<script>
+(function () {
+  var cv = document.getElementById('cv');
+  var ctx = cv.getContext('2d');
+  ctx.imageSmoothingEnabled = false;
+  var game = window.KatanaProto.createGame();
+  var QS = new URLSearchParams(location.search);
+  var fxMode = !!QS.get('fx');
+  var stopMode = !!QS.get('stop');
+  if (fxMode) game.showcase();
+  function unlockAudio() { if (game.sfx && game.sfx.unlock) game.sfx.unlock(); }
+
+  function fit() {
+    var s = Math.min(window.innerWidth / 480, (window.innerHeight - 130) / 270);
+    s = Math.max(1, Math.floor(s * 2) / 2);
+    cv.style.width = (480 * s) + 'px';
+    cv.style.height = (270 * s) + 'px';
+  }
+  window.addEventListener('resize', fit); fit();
+
+  var keymap = {
+    ArrowLeft: 'left', KeyA: 'left', ArrowRight: 'right', KeyD: 'right',
+    Space: 'jump', ArrowUp: 'jump', KeyW: 'jump',
+    KeyJ: 'attack', KeyK: 'parry', ShiftLeft: 'dash', ShiftRight: 'dash'
+  };
+  window.addEventListener('keydown', function (e) {
+    unlockAudio();
+    if (e.code === 'KeyR') { game.reset(); e.preventDefault(); return; }
+    var k = keymap[e.code];
+    if (k) { game.input[k] = true; e.preventDefault(); }
+  });
+  window.addEventListener('keyup', function (e) {
+    var k = keymap[e.code];
+    if (k) { game.input[k] = false; e.preventDefault(); }
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll('.btn'), function (b) {
+    var k = b.getAttribute('data-k');
+    function on(e) { e.preventDefault(); unlockAudio(); game.input[k] = true; }
+    function off(e) { e.preventDefault(); game.input[k] = false; }
+    b.addEventListener('pointerdown', on);
+    b.addEventListener('pointerup', off);
+    b.addEventListener('pointercancel', off);
+    b.addEventListener('pointerleave', off);
+  });
+
+  // 演示模式：?demo=1&frames=N —— 让机器人自己打 N 帧后再渲染，便于截图验证
+  try {
+    var qs = new URLSearchParams(location.search);
+    if (qs.get('demo')) {
+      var frames = parseInt(qs.get('frames') || '240', 10);
+      var P = window.KatanaProto;
+      var demoPrevX = 0;
+      function demoSupported(R, x, y) {
+        for (var i = 0; i < R.blocks.length; i++) {
+          var b = R.blocks[i];
+          if (x >= b.x && x <= b.x + b.w && y >= b.y - 2 && y <= b.y + b.h + 2) return true;
+        }
+        return false;
+      }
+      function demoBot() {
+        var inp = game.input, p = game.player;
+        if (game.dlg.active) { inp.attack = true; return; }
+        if (!p || p.dead) return;
+        var R = P.LEVEL[Math.min(game.info().room, P.LEVEL.length - 1)];
+        inp.right = true; inp.left = false;
+        var footY = p.y + p.h + 3;
+        if (p.onGround && !demoSupported(R, p.x + p.w + 6, footY)) { inp.jump = true; inp.dash = true; }
+        if (p.onGround && p.x - demoPrevX < 0.25) inp.jump = true;
+        for (var ei = 0; ei < game.enemies.length; ei++) {
+          var e = game.enemies[ei];
+          if (!e.alive) continue;
+          var d = e.x - p.x;
+          if (Math.abs(d) < 30 && Math.sign(d) === (p.face > 0 ? 1 : -1)) inp.attack = true;
+        }
+        for (var k = 0; k < game.bullets.length; k++) {
+          if (Math.abs(game.bullets[k].x - p.x) < 34) inp.parry = true;
+        }
+      }
+      for (var fi = 0; fi < frames; fi++) { var bx0 = game.player ? game.player.x : 0; demoBot(); game.step(); demoPrevX = bx0; }
+    }
+  } catch (err) { console.log('demo err', err); }
+
+  var last = performance.now(), acc = 0, STEP = 1 / 60;
+  function frame(now) {
+    if (fxMode || stopMode) { game.draw(ctx); requestAnimationFrame(frame); return; }
+    var dt = (now - last) / 1000; last = now;
+    if (dt > 0.25) dt = 0.25;
+    acc += dt;
+    var guard = 0;
+    while (acc >= STEP && guard < 6) { game.step(); acc -= STEP; guard++; }
+    game.draw(ctx);
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

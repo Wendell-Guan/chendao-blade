@@ -1,0 +1,7828 @@
+{
+ "total_gml_names": 13375,
+ "objects": {
+  "obj_AI": [
+   "Create"
+  ],
+  "obj_SNOW": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_V": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_V_death": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_V_fight": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_V_limo": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_Vdisappear": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_ac": [
+   "Step"
+  ],
+  "obj_actor": [
+   "CleanUp",
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_ai_target": [
+   "Alarm",
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_aidoor": [
+   "Alarm",
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_alarm_light": [
+   "Create",
+   "Draw"
+  ],
+  "obj_alleyway_parallax_2": [
+   "Draw"
+  ],
+  "obj_alleyway_parallax": [
+   "Draw"
+  ],
+  "obj_animated_setpiece": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_apartment_newsmaster": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_apt_neighbormask": [
+   "Create"
+  ],
+  "obj_apt_neighborparty": [
+   "Create",
+   "Step"
+  ],
+  "obj_apt_tape": [
+   "Create"
+  ],
+  "obj_apt_tv": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_arrow": [
+   "Create"
+  ],
+  "obj_arrowtrap": [
+   "Draw",
+   "Other"
+  ],
+  "obj_audiolooper": [
+   "CleanUp",
+   "Create",
+   "Step"
+  ],
+  "obj_backgroundFill": [
+   "Draw"
+  ],
+  "obj_barrel_throwtarget": [
+   "Draw",
+   "Step"
+  ],
+  "obj_bartender": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_basement_hostage": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_beercan": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bgPlayerApt": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bg_motion_trail": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_bike_car": [
+   "Create",
+   "Step"
+  ],
+  "obj_bike_car_wreck": [
+   "Create"
+  ],
+  "obj_bike_city_building": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bike_dead_obstacle": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_bike_motion_trail": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_bike_object": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bike_obstacle": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_bike_traffic_cone": [
+   "Create"
+  ],
+  "obj_bike_tunnel_entrance": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bike_tunnel_exit": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bikeblood": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_bikebullet": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_bikebullet_trail": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bikechase_end_shadows": [
+   "Draw"
+  ],
+  "obj_bikechase_wave": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_bikechase_wave_master": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bikecorpse": [
+   "Alarm",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_bikepickup": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bikeplayer": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_bikeroad": [
+   "Draw"
+  ],
+  "obj_bikeslash": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_blanktextbox": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_blink": [
+   "Create",
+   "Draw"
+  ],
+  "obj_blink_fxonly": [
+   "Create",
+   "Draw"
+  ],
+  "obj_blinking_light": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_block": [
+   "Alarm",
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_block_background": [
+   "Create",
+   "Draw"
+  ],
+  "obj_block_corner": [
+   "Create"
+  ],
+  "obj_blood": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_blood_emitter": [
+   "Create",
+   "Step"
+  ],
+  "obj_bloodlust": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bloodmaster": [
+   "Other"
+  ],
+  "obj_blunt_impact2": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_blunt_impact": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_bone": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_boss_template": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_brain": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_break_block": [
+   "Alarm",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_break_box": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_breakbox_temple": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_broken_halogen": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_broken_pipe": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_bullet": [
+   "CleanUp",
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_bullet_road": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bulletspark_reflect": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_bunker11_master": [
+   "Create",
+   "Step"
+  ],
+  "obj_bunker6_hint": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bunker7_enemycontrol": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bunker8_sound": [
+   "CleanUp",
+   "Create",
+   "Step"
+  ],
+  "obj_bunker_10_persist": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_bunker_door": [
+   "Create",
+   "Draw"
+  ],
+  "obj_bunker_elevator": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_bunker_elevator_blackout": [
+   "Draw"
+  ],
+  "obj_bunker_elevator_button": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_bunker_elevator_shaft": [
+   "Draw"
+  ],
+  "obj_bunker_hell_override_throw": [
+   "Draw",
+   "Step"
+  ],
+  "obj_bunker_lobby_desk": [
+   "Create"
+  ],
+  "obj_bunker_playersave": [
+   "Create",
+   "Other"
+  ],
+  "obj_bunker_replaymaster": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_bunkertv": [
+   "Create"
+  ],
+  "obj_burncircle": [
+   "Create",
+   "Step"
+  ],
+  "obj_burncircle_spawner": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_button_prompt": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cable": [
+   "Draw",
+   "Step"
+  ],
+  "obj_cable_shot": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_camera": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_camera_lock": [
+   "Draw"
+  ],
+  "obj_canthear": [
+   "Draw"
+  ],
+  "obj_cardgame_card": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_cart2_tutorial": [
+   "Create",
+   "Draw"
+  ],
+  "obj_casino_bouncer": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_casino_door": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_casino_slot_machine": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cat": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cathedral_arch": [
+   "Draw"
+  ],
+  "obj_cathedral_dustspawner": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cathedral_text": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cathedral_windowlight": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_ceiling_laser": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_ceiling_laser_bullets": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_ceiling_laser_invisible": [
+   "Create",
+   "Draw"
+  ],
+  "obj_ceiling_tile": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_ceiling_tile_dead": [
+   "Alarm",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_ceiling_tile_strip": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_ceiling_turret": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_ceiling_turret_sight": [
+   "Draw"
+  ],
+  "obj_chinatown1_tracker": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_chinatown_parallax": [
+   "Draw"
+  ],
+  "obj_chinatown_tape": [
+   "Create"
+  ],
+  "obj_choicebox": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_choicebox_hauntedelevator": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_choose_home_cutscene": [
+   "Create"
+  ],
+  "obj_choose_nightmare_cutscene": [
+   "Create"
+  ],
+  "obj_choose_psych_cutscene": [
+   "Create"
+  ],
+  "obj_cigarette": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cigsmoke": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_cinemabars": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_clear_enemies": [
+   "Draw",
+   "Step"
+  ],
+  "obj_clothesline": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_clothesline_custom": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_club_bouncer": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_club_bouncerfriend": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_club_dooropen": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_club_floor": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_club_laser": [
+   "Create",
+   "Other"
+  ],
+  "obj_club_laserstrip": [
+   "Create"
+  ],
+  "obj_club_master": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_club_skinnyricky": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_club_skinnyricky_leader": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_club_strobe": [
+   "Create",
+   "Step"
+  ],
+  "obj_clubber": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_clublight": [
+   "Create",
+   "Step"
+  ],
+  "obj_coffinhead": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_collarexplode": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_collision_box": [
+   "Draw"
+  ],
+  "obj_collision_line": [
+   "Draw"
+  ],
+  "obj_color_seed": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_comedy": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_continuegame": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_control": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_conveyer_belt": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_conveyer_lever": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_corpsefire": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_create_psych_nightmare": [
+   "Create",
+   "Step"
+  ],
+  "obj_credits_master": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_credits_scrolling": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cryosmoke": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_cursorCircleEffect": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cursor": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_alleyway": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_alleyway_drug": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_10": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_11": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_apartment_1": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_3": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_4": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_5": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_5_old": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_6": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_6_morning": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_7_afternoon_2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_7_afternoon": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_7_morning": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_9_afternoon_2_old": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_9_afternoon": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_9_morning": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_neighbor_torture": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_apartment_postnightmare": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_bar": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_bonus_0": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_bonus_normal": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_bunker_0": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_bunker_10_2": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_bunker_10": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_bunker_12_2": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_bunker_12": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_bunker_basic": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_bunker_boss_2": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_bunker_boss": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_bunker_boss_final": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_bunker_ending": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_bunkermansion_1": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_bunkermansion_basic": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_bunkermansion_big": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_camera": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other"
+  ],
+  "obj_cutscene_cathedral": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_chinatown_10": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_chinatown_1": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_chinatown_2": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_chinatown_3": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_chinatown_4": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_chinatown_5": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_chinatown_6": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_chinatown_7": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_chinatown_8": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_chinatown_9": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_chinatown_basic": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_chinatown_casino": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_club_0": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_club_1": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_club_2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_club_3": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_club_4_2": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_club_4": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_club_5": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_club_6": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_club_7": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_club_normal": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_controller": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_dragon_1": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_dragon_2": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_dragon_5": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_dragon_6": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_dragon_7": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_dragon_8": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_dragon_basic": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_dragon_end": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_ending": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_factory2_0": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_factory2_1": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_factory2_2": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_factory2_3": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_factory2_4_2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_factory2_5": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_factory2_6": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_factory2_7": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_factory2_8": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_factory2_9": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_factory2_basic": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_factory2_ending": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_factory_0": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_factory_1": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_factory_2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_factory_3_2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_factory_3": [
+   "Alarm",
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_factory_4": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_govtlab_0": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_hallway_11_2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_hallway_11": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_hallway_2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_hallway_3": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_hallway_4": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_hallway_5_old": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_hallway_6": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_haunted_0": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_haunted_alien1": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_haunted_alien2": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_haunted_alienrunback": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_haunted_cart1": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_haunted_cart2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_haunted_cartrunback": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_haunted_hub": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_haunted_hubreturn": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_haunted_light1": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_haunted_light2": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_haunted_silentrunback": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_limo": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_mansion_0": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_mansion_1": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_mansion_2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_mansion_3": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_mansion_4": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_mansion_bikechase": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_mansionoutside": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_master": [
+   "Create",
+   "Destroy",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_motel_0": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_motel_1": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_motel_2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_motel_4": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_motel_6": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_motel_7": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_motel_normal": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_movie": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_nightmare_10": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_nightmare_2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_nightmare_3": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_nightmare_4": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_nightmare_5": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_nightmare": [
+   "Create",
+   "Destroy"
+  ],
+  "obj_cutscene_postcredits": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_prison_0": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_prison_0_return": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_prison_1": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_prison_1_alt": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_prison_1_old": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_prison_1_return": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_prison_2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_prison_2_return": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_prison_3": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_prison_3_return": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_prison_4": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_prison_4_return": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_prison_5": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_psych_10": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_psych_11": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_psych_11_battle": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_psych_2": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_psych_3": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_psych_4": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_psych_6_2": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_psych_6": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_psych_7": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_psych_9": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_psych_9_old": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_psych_lobby_2": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_psych_lobby": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_psych_nightmare": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_psych_outside_2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_psych_outside": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_rooftop": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_cutscene_studio_finale": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_studio_outside": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_studio_pre_v": [
+   "Create",
+   "Step"
+  ],
+  "obj_cutscene_tiedup": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_cutscene_videostore": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_darkenbg": [
+   "Create",
+   "Draw"
+  ],
+  "obj_deadcop": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_deadguard": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_debugKey": [
+   "Other"
+  ],
+  "obj_delayed_explosion": [
+   "Create",
+   "Step"
+  ],
+  "obj_demomode": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_destroy_psych_nightmare": [
+   "Create",
+   "Step"
+  ],
+  "obj_dialogue_master": [
+   "Create",
+   "Step"
+  ],
+  "obj_dialogue_tool": [
+   "Create",
+   "Step"
+  ],
+  "obj_discard": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_distant_spotlight": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_divider_block": [
+   "Alarm",
+   "Create",
+   "Draw"
+  ],
+  "obj_djbooth_console": [
+   "Step"
+  ],
+  "obj_djbooth_screen": [
+   "Step"
+  ],
+  "obj_door": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_door_explosion": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_door_old": [
+   "Create",
+   "Draw"
+  ],
+  "obj_doordead": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_doordead_foreground": [
+   "Create",
+   "Draw"
+  ],
+  "obj_doordead_old": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_doorknock": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_dooropen": [
+   "Create",
+   "Other"
+  ],
+  "obj_dragon": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_dragon_entranceglow": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_dragontext": [
+   "Create",
+   "Draw"
+  ],
+  "obj_draw_static_objects": [
+   "Draw"
+  ],
+  "obj_drawactors": [
+   "CleanUp",
+   "Create",
+   "Draw"
+  ],
+  "obj_drawactors_bg": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_drawactors_bgfg": [
+   "Create",
+   "Draw"
+  ],
+  "obj_drawactors_bike": [
+   "CleanUp",
+   "Create",
+   "Draw"
+  ],
+  "obj_drawactors_bike_bg": [
+   "Create",
+   "Draw"
+  ],
+  "obj_drawbullet_shadows": [
+   "Draw"
+  ],
+  "obj_drawspheres": [
+   "Draw"
+  ],
+  "obj_drone": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_drone_waypoint": [
+   "Create"
+  ],
+  "obj_drug_sequence": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_drunk_1": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_drunk_2": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_dummy": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_dummy_enemy_actor": [
+   "Create",
+   "Draw"
+  ],
+  "obj_dustcloud": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_dustparticle": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_dustspawner": [
+   "Step"
+  ],
+  "obj_electrohead": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_electrohead_phone": [
+   "Step"
+  ],
+  "obj_electromagnetic_beam": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other"
+  ],
+  "obj_electromagnetic_beam_fg": [
+   "Create",
+   "Draw"
+  ],
+  "obj_electromagnetic_node": [
+   "Create",
+   "Draw"
+  ],
+  "obj_elevator": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_elevator_doors": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_elevator_doors_haunted": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_elevator_doors_wide": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_elevator_gangster": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_elevator_haunted": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_elevator_wide": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_elevatortracker": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_employee_kface": [
+   "Create",
+   "Draw"
+  ],
+  "obj_end_block": [
+   "Draw"
+  ],
+  "obj_ending_background": [
+   "Create",
+   "Draw"
+  ],
+  "obj_ending_dragon": [
+   "Create",
+   "Draw"
+  ],
+  "obj_ending_flame_particle": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_ending_gameover": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_ending_machine": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_ending_man": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_ending_slides": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_ending_smoke_particle": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_ending_snow_2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_ending_snow": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_enemy": [
+   "Alarm",
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_enemy_bikeslash": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_enemy_cop": [
+   "Alarm",
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_enemy_grunt": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_enemy_machinegun": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_enemy_meele": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_enemy_redpomp": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_enemy_sci": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_enemy_shieldcop": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_enemy_shotgun": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_enemy_slash": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_enemy_waypoint": [
+   "Alarm",
+   "Create",
+   "Draw"
+  ],
+  "obj_enemybike": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_enemybike_bully": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_enemybike_machinegun": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_enemybike_v": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_enemycorpse": [
+   "Alarm",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_exploding_door": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_explosion": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_explosion_particle": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_explosion_particle_drawself": [
+   "Create",
+   "Draw"
+  ],
+  "obj_explosive_gangster": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_factory0_spheredraw": [
+   "Draw"
+  ],
+  "obj_factory2_1_darkenfg": [
+   "Create",
+   "Draw"
+  ],
+  "obj_factory2_door": [
+   "Create",
+   "Draw"
+  ],
+  "obj_factory_alarm_trigger": [
+   "Draw"
+  ],
+  "obj_factory_dooropen": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_factorysci_chair": [
+   "Create",
+   "Draw"
+  ],
+  "obj_factorysci_escort": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_factorytv": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_fakelight": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_family_huddled": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_fanblade": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_fanblade_fg": [
+   "Create",
+   "Draw"
+  ],
+  "obj_fayuan": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_fgPlayerApt": [
+   "Step"
+  ],
+  "obj_fire_emitter": [
+   "Create",
+   "Step"
+  ],
+  "obj_firespark": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_firstframe": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_flamethrower": [
+   "Create"
+  ],
+  "obj_flamethrower_explosion": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_flamethrower_flame": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_flash": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_flashlight_checker": [
+   "Step"
+  ],
+  "obj_flashlight_light": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_flashlightmaster": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other"
+  ],
+  "obj_flickering_light": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_floor": [
+   "Create",
+   "Draw"
+  ],
+  "obj_floor_turret": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_floor_turret_dead": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_floorcorner": [
+   "Draw"
+  ],
+  "obj_flyinghead": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_flyinghead_headhunter": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_flyinghead_kissyface": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_flyingheadhunterpart": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_flyingleviathan": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_fog": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_fogmachine": [
+   "Create"
+  ],
+  "obj_fogspawner": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_folder_cutscene": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_folder_fireparticle": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_folderfire": [
+   "Create",
+   "Step"
+  ],
+  "obj_foldinggate": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_foreground_object": [
+   "Create",
+   "Draw"
+  ],
+  "obj_foundcandy": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_foundleviathan": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_fullscreen_cutscene0": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_fullscreen_cutscene1": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_fullscreen_cutscene2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_fullscreen_cutscene3": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_fullscreen_cutscene_results": [
+   "Create",
+   "Step"
+  ],
+  "obj_fullscreen_cutscene_skipsci": [
+   "Create",
+   "Step"
+  ],
+  "obj_gameovermusic": [
+   "Step"
+  ],
+  "obj_gamepause_demoend": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_gamepause_demoend_old": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_gamepaused": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_gametitle_splash": [
+   "Create",
+   "Draw"
+  ],
+  "obj_gametitle_trail": [
+   "Create",
+   "Draw"
+  ],
+  "obj_gangsterbike_dead": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_garage_drawshadow": [
+   "Draw"
+  ],
+  "obj_garagelamp": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_ggun_preview": [
+   "Create",
+   "Draw",
+   "KeyPress"
+  ],
+  "obj_ghair_preview": [
+   "Create",
+   "Draw"
+  ],
+  "obj_ghost_ceiling_laser": [
+   "Alarm",
+   "Create"
+  ],
+  "obj_ghost_ceiling_laser_shotgun": [
+   "Alarm",
+   "Create"
+  ],
+  "obj_ghost_ceiling_turret": [
+   "Alarm",
+   "Create"
+  ],
+  "obj_ghost_drone": [
+   "Alarm",
+   "Create"
+  ],
+  "obj_ghost_enemy": [
+   "Alarm",
+   "Create"
+  ],
+  "obj_ghost_enemy_cop": [
+   "Create"
+  ],
+  "obj_ghost_enemy_grunt": [
+   "Create"
+  ],
+  "obj_ghost_enemy_machinegun": [
+   "Create"
+  ],
+  "obj_ghost_enemy_meele": [
+   "Create"
+  ],
+  "obj_ghost_enemy_redpomp": [
+   "Create"
+  ],
+  "obj_ghost_enemy_shieldcop": [
+   "Create"
+  ],
+  "obj_ghost_enemy_shotgun": [
+   "Create"
+  ],
+  "obj_ghost_turret": [
+   "Alarm",
+   "Create"
+  ],
+  "obj_girl": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_girl_costume": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_girldead": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_glass_window": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_glassdome": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_glassshard": [
+   "Create",
+   "Other"
+  ],
+  "obj_global_controller": [
+   "Create",
+   "KeyPress",
+   "Other",
+   "Step"
+  ],
+  "obj_go_arrow": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_go_arrow_cutscene": [
+   "Draw",
+   "Step"
+  ],
+  "obj_go_arrow_door": [
+   "Draw",
+   "Step"
+  ],
+  "obj_govt_cardreader_2": [
+   "Create",
+   "Step"
+  ],
+  "obj_govt_cardreader": [
+   "Create",
+   "Step"
+  ],
+  "obj_govt_katanavault": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_graphics_options": [
+   "Create",
+   "Draw",
+   "KeyPress",
+   "Other",
+   "Step"
+  ],
+  "obj_grenade_shrapnel": [
+   "Create",
+   "Destroy",
+   "Step"
+  ],
+  "obj_grippable": [
+   "Draw"
+  ],
+  "obj_grunt_slash": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_gunsmoke": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_gunspark": [
+   "Create",
+   "Step"
+  ],
+  "obj_gunspark_particle": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_hallway_dooropen": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_halogen": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_halogen_lamp": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_haunted_cardreader": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_haunted_persistor": [
+   "Create",
+   "Other"
+  ],
+  "obj_hauntedtv": [
+   "Create"
+  ],
+  "obj_headhunter": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_headhunter_actor": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_headhunter_deathfx": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_headhunter_energy_bullet2": [
+   "Create",
+   "Draw"
+  ],
+  "obj_headhunter_energy_bullet": [
+   "Create",
+   "Draw"
+  ],
+  "obj_headhunter_energy_bullet_sweep": [
+   "Create",
+   "Draw"
+  ],
+  "obj_headhunter_floorcharge": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_headhunter_grenade_bounce": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_headhunter_impulse_blast": [
+   "Create"
+  ],
+  "obj_headhunter_rocket": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_headhunter_turret_platform": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_headhunter_turret_platform_right": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_headhunter_turret_wall": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_headhunter_turret_wall_right": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_heli": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_heli_background": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_heli_master": [
+   "Create",
+   "Step"
+  ],
+  "obj_heli_mortar": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_heli_mortar_explosion": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_heli_mortar_far": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_heli_wreck": [
+   "Create",
+   "Draw"
+  ],
+  "obj_helpshiftCallback": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_hidden": [
+   "Draw"
+  ],
+  "obj_hint_arrow": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_hintbox": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_hit_impact": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_hitbox_test": [
+   "Create"
+  ],
+  "obj_hitflash2": [
+   "Create",
+   "Draw"
+  ],
+  "obj_hitflash": [
+   "Create",
+   "Draw"
+  ],
+  "obj_homelessvet": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_hud": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_hudparticle": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_init": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_interact_couch": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_interact_homedoor": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_interact_kitchen": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_interact_prompt": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_interact_tapes": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_interact_television": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_interact_tv": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_interact_vault": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_interaction": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_inverted_halogen": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_invis_block_2": [
+   "Draw"
+  ],
+  "obj_invis_block_3": [
+   "Draw"
+  ],
+  "obj_invis_block_4": [
+   "Draw"
+  ],
+  "obj_invis_block_5": [
+   "Draw"
+  ],
+  "obj_invis_block": [
+   "Draw"
+  ],
+  "obj_invis_bullet": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_itemspawn_point": [
+   "Draw"
+  ],
+  "obj_itemspawner": [
+   "Create",
+   "Draw"
+  ],
+  "obj_itemswapper": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_jumpcloud": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_jumpthrough": [
+   "Draw"
+  ],
+  "obj_killer_event": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_kissyface": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_kissyface_axe_2": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_kissyface_axe_3": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_kissyface_axe": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_kissyface_grenade": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_kissyface_grenade_bounce": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_kissyface_grenade_explode": [
+   "Create",
+   "Draw"
+  ],
+  "obj_kissyface_grenade_explode_beam": [
+   "Create",
+   "Draw"
+  ],
+  "obj_landcloud": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_landlady": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_laser_chargeparticle": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_laser_master": [
+   "Create",
+   "Draw"
+  ],
+  "obj_leon": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_leon_cryo_interact": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_leon_dustspawner": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_leon_playtape": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_leon_smallscreen": [
+   "Create",
+   "Draw"
+  ],
+  "obj_leontv": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_letter": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_level_complete": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_level_complete_nofx": [
+   "Draw"
+  ],
+  "obj_level_end": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_level_end_cutscene": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_level_end_nocondition": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_level_select": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_level_select_fade": [
+   "Create",
+   "Draw"
+  ],
+  "obj_leveltext": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_lightable": [
+   "Create",
+   "Draw"
+  ],
+  "obj_lightback": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_lightbulb": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_lightmaster": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_lightning": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_lightsource": [
+   "Create",
+   "Destroy",
+   "Step"
+  ],
+  "obj_lightstring": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_lighttunnel": [
+   "Create",
+   "Draw"
+  ],
+  "obj_limo_prostitute2": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_limo_prostitute": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_lineflash": [
+   "Create",
+   "Draw"
+  ],
+  "obj_loadfail": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_loadfail_speedrun": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_lobby_cop": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_locked_blastdoor_base": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_lockgame": [
+   "Create",
+   "Step"
+  ],
+  "obj_logo": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_machine_gun_barricade": [
+   "Create",
+   "Step"
+  ],
+  "obj_magneticprojectile": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_magneticshrapnel": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_mansion4_tracker": [
+   "Create",
+   "Step"
+  ],
+  "obj_mansion_1_blackout": [
+   "Draw"
+  ],
+  "obj_mansion_chandelier": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_mansion_drawouter": [
+   "Create",
+   "Draw"
+  ],
+  "obj_mansion_drawouter_foreground": [
+   "Draw"
+  ],
+  "obj_mansion_generator": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_mansion_pokertable": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_mansionclock": [
+   "Create"
+  ],
+  "obj_mansiondoor_open": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_mansionrobber": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_marker_stairdown": [
+   "Alarm",
+   "Create",
+   "Draw"
+  ],
+  "obj_marker_stairup": [
+   "Alarm",
+   "Create",
+   "Draw"
+  ],
+  "obj_master": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_minecart": [
+   "Alarm",
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_minecart_OLD": [
+   "Alarm",
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_minecart_front": [
+   "Create",
+   "Draw"
+  ],
+  "obj_minecart_lockplayer_x": [
+   "Draw"
+  ],
+  "obj_minecart_master": [
+   "Alarm",
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_minecart_node": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_miscmaster": [
+   "Create",
+   "Draw",
+   "KeyPress",
+   "Other"
+  ],
+  "obj_mobile_control_menu": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_mobile_control_menu_button": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_mobile_control_menu_tap_button": [
+   "Create",
+   "Draw"
+  ],
+  "obj_mobile_draw_tap_circles": [
+   "Draw"
+  ],
+  "obj_motel_0_skyline": [
+   "Alarm",
+   "Create",
+   "Draw"
+  ],
+  "obj_motel": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_motel_dooropen": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_motion_trail": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_movingblock": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_movingblock_OLD": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_movingplatform": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_movingstop": [
+   "Draw"
+  ],
+  "obj_multiplayer_camera": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_multiplayer_master": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_murdower_sign": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_musicmaster": [
+   "Create",
+   "Other"
+  ],
+  "obj_neighbor_apartment_bg": [
+   "Draw"
+  ],
+  "obj_neighbor_apartment_bg_alpha": [
+   "Draw"
+  ],
+  "obj_neighbor_door": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_neighbor_silhouette": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_neighbor_table": [
+   "Draw"
+  ],
+  "obj_netflixSDKScreen": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_netflixSDK": [
+   "Alarm",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_new_platform_lighting": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_nightmare_actor": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_nightmare_background": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_nightmare_boy": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_nightmare_girl": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_nightmare_killer": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_nightmare_machine": [
+   "Create",
+   "Other"
+  ],
+  "obj_nightmare_player": [
+   "Create",
+   "Other"
+  ],
+  "obj_nightmare_psych": [
+   "Create",
+   "Other"
+  ],
+  "obj_nightmare_psych_background": [
+   "Create",
+   "Draw"
+  ],
+  "obj_nightmare_psych_far_overlay": [
+   "Create",
+   "Draw"
+  ],
+  "obj_nightmare_psych_overlay": [
+   "Create",
+   "Draw"
+  ],
+  "obj_nightmare_scientist": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_nightmare_setpiece": [
+   "Create",
+   "Other"
+  ],
+  "obj_no_blood": [
+   "Draw"
+  ],
+  "obj_nodespeeder": [
+   "Create",
+   "Draw"
+  ],
+  "obj_nowplaying": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_officer": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_officer_gaming": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_oil_drum": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_old_netflixSDK": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_old_textbox": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_oldman": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_onScreenKeyboard": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_options_main_menu": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_optionsmenu": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_optionsprompt": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_optionsprompt_old": [
+   "Create",
+   "Step"
+  ],
+  "obj_opto_master": [
+   "Create",
+   "Other"
+  ],
+  "obj_orangelight": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_orangelight_noback": [
+   "Step"
+  ],
+  "obj_outdoors_shadow": [
+   "Create",
+   "Step"
+  ],
+  "obj_overpass_billboard": [
+   "Create",
+   "Step"
+  ],
+  "obj_overpass_billboard_not_solid": [
+   "Create",
+   "Step"
+  ],
+  "obj_panic_switch": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_paper": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_particle": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_passive_textbox": [
+   "CleanUp",
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_pauseBtn": [
+   "Draw",
+   "Step"
+  ],
+  "obj_pausecamera": [
+   "Draw"
+  ],
+  "obj_pausemenu": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_pausemenu_demo": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_pausemenu_demo_old": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_penthouse_constantblackline": [
+   "Create",
+   "Draw"
+  ],
+  "obj_penthouse_door": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_penthouse_mill": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_penthouse_reactiveblackline": [
+   "Create",
+   "Draw"
+  ],
+  "obj_penthouse_skyline": [
+   "Create",
+   "Draw"
+  ],
+  "obj_phoneicon": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_pickup": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_pickup_katana": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_pickuparrow": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_pickupitem_fx2": [
+   "Create",
+   "Draw"
+  ],
+  "obj_pickupitem_fx": [
+   "Create",
+   "Draw"
+  ],
+  "obj_pistolwhip2": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_pistolwhip": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_plasmabullet": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_platform_lighting2": [
+   "Draw"
+  ],
+  "obj_platform_lighting": [
+   "Draw"
+  ],
+  "obj_playerBtn": [
+   "Create",
+   "Draw",
+   "Gesture",
+   "Step"
+  ],
+  "obj_player": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_player_cable": [
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_player_dossier": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_player_rooftop": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_player_tiedup": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_playerspawn": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_pokercard": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_policecar": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_policecar_lights": [
+   "Create",
+   "Draw"
+  ],
+  "obj_popuptext": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_pressure_plate": [
+   "Create",
+   "Step"
+  ],
+  "obj_pressureplate_link": [
+   "Create",
+   "Step"
+  ],
+  "obj_prison_0_skyline": [
+   "Draw"
+  ],
+  "obj_prison_alarm": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_prison_blood": [
+   "Create",
+   "Draw"
+  ],
+  "obj_prison_bunk": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_prison_deadguard_standing": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_prison_deadguards_table": [
+   "Create"
+  ],
+  "obj_prison_guardpersist": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_prison_light": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_prison_monitors": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_prison_police_window": [
+   "Create",
+   "Draw"
+  ],
+  "obj_prison_prevroom": [
+   "Create",
+   "Step"
+  ],
+  "obj_prison_sink": [
+   "Draw"
+  ],
+  "obj_prison_spotlight": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_prisondoor": [
+   "Create",
+   "Step"
+  ],
+  "obj_prisonguard": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_prisonwall_explode": [
+   "Create",
+   "Draw"
+  ],
+  "obj_prisonwall_explode_fg": [
+   "Create"
+  ],
+  "obj_prisonwall_explode_particles": [
+   "Create",
+   "Draw"
+  ],
+  "obj_progressmaster": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_projectile_trail": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_psych_fireplace": [
+   "Create",
+   "Draw"
+  ],
+  "obj_psych_outside_lightoverlay": [
+   "Draw"
+  ],
+  "obj_psych_projectile": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_psych_projectile_die": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_psych_setpiece": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_psych_transform": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_psychboss_1": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychboss_attack_hands_begin": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychboss_attack_knife": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychboss_attack_punch": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychboss_attack_tracking_hand": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychboss_aura": [
+   "Create",
+   "Draw"
+  ],
+  "obj_psychboss_background": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_psychboss_background_nightmare": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_psychboss_doppleganger": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychboss_doppleganger_die": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychboss_draw_eyes": [
+   "CleanUp",
+   "Create",
+   "Draw"
+  ],
+  "obj_psychboss_effects": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_psychboss_eye": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_psychboss_foreground": [
+   "Draw"
+  ],
+  "obj_psychboss_giant": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychboss_ground": [
+   "Create",
+   "Draw"
+  ],
+  "obj_psychboss_gutpsych": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychboss_master": [
+   "CleanUp",
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_psychboss_phase1": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychboss_portal": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychboss_spark": [
+   "Create",
+   "Draw"
+  ],
+  "obj_psychboss_turret": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychdead": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychiatrist": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_psychoffice_bloodlust": [
+   "Create",
+   "Draw"
+  ],
+  "obj_psychoffice_shake_sides": [
+   "Create",
+   "Draw"
+  ],
+  "obj_quickitemswap": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_quiethillsign": [
+   "Create",
+   "Draw"
+  ],
+  "obj_ragdoll": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_rain_3d": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_rain": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_rainsplash_3d": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_rainsplash": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_reception_V": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_reception_bogie": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_reception_chair": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_reception_magstand": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_reception_sofa": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_reception_stand": [
+   "CleanUp",
+   "Create",
+   "Draw"
+  ],
+  "obj_receptionist": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_recolor_object": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_record": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_recordsmoke": [
+   "Create",
+   "Draw"
+  ],
+  "obj_replayBtns": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_replay": [
+   "Create",
+   "Draw"
+  ],
+  "obj_replay_controller": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_respawn_point": [
+   "Draw"
+  ],
+  "obj_rewind": [
+   "Create",
+   "Draw"
+  ],
+  "obj_rickykick": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_rollinghead": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_rooftop_background": [
+   "Create",
+   "Draw"
+  ],
+  "obj_room_seed": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_roomsfx": [
+   "CleanUp",
+   "Create",
+   "Step"
+  ],
+  "obj_rosepetal": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_rosepetalspawner": [
+   "Mouse"
+  ],
+  "obj_roulette_worker": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_rubble2": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_rubble": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_savegame": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_saveprompt": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_scientist_chair": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_screenBtn": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_screenJoystick": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_screen": [
+   "Step"
+  ],
+  "obj_screen_drunk": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_screen_fade": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_screen_flash": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_screen_flash_full": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_screen_flash_memory": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_screen_flash_persistent": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_screen_glitch": [
+   "CleanUp",
+   "Create",
+   "Draw"
+  ],
+  "obj_screen_takedrugs": [
+   "CleanUp",
+   "Create",
+   "Draw"
+  ],
+  "obj_search_couch": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_search_cupboard": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_search_fridge": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_search_leviathan": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_search_psychoffice": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_searching_meter": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_set_bunkerchair": [
+   "Create",
+   "Draw"
+  ],
+  "obj_set_bunkertable": [
+   "Create",
+   "Draw"
+  ],
+  "obj_set_casinotable": [
+   "Create",
+   "Draw"
+  ],
+  "obj_set_desk": [
+   "Create",
+   "Draw"
+  ],
+  "obj_set_garbage": [
+   "Create",
+   "Draw"
+  ],
+  "obj_set_plant": [
+   "Create",
+   "Draw"
+  ],
+  "obj_set_stand": [
+   "Create",
+   "Draw"
+  ],
+  "obj_set_studio1": [
+   "Create",
+   "Draw"
+  ],
+  "obj_set_studio2": [
+   "Create",
+   "Draw"
+  ],
+  "obj_set_studio3": [
+   "Create",
+   "Draw"
+  ],
+  "obj_set_studio4": [
+   "Create",
+   "Draw"
+  ],
+  "obj_set_studio5": [
+   "Create",
+   "Draw"
+  ],
+  "obj_setpiece": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_setupmultiplayer": [
+   "Create",
+   "Draw",
+   "KeyPress",
+   "Other",
+   "Step"
+  ],
+  "obj_sfx_tool": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_sfxmaster": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_sfxmaster_old": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_shadow_overlay": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other"
+  ],
+  "obj_shell": [
+   "Create",
+   "Other"
+  ],
+  "obj_shieldbash": [
+   "Step"
+  ],
+  "obj_sky_parallax": [
+   "Draw"
+  ],
+  "obj_slash": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_slash_prompt": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_slashfx": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_slaughterhouse_cameratracker": [
+   "Create",
+   "Step"
+  ],
+  "obj_slaughterhouse_lab": [
+   "Create",
+   "Step"
+  ],
+  "obj_slaughterhouse_sensor": [
+   "Create",
+   "Draw"
+  ],
+  "obj_slaughterhouse_tut": [
+   "Create",
+   "Draw"
+  ],
+  "obj_slidingdoor": [
+   "Create",
+   "Draw"
+  ],
+  "obj_slidingdoor_base": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_slope2": [
+   "Draw"
+  ],
+  "obj_slope2_short": [
+   "Draw"
+  ],
+  "obj_slope": [
+   "Draw"
+  ],
+  "obj_slope_short": [
+   "Draw"
+  ],
+  "obj_slowdowndarken": [
+   "Draw"
+  ],
+  "obj_small_alleyway_parallax": [
+   "Draw"
+  ],
+  "obj_smoke_particle": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_smoke_spawner": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_smokecloud": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_smokescreen_master": [
+   "Draw",
+   "Step"
+  ],
+  "obj_sniperbullet": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_snipertarget": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_snuff_film_sequence": [
+   "Create",
+   "Other"
+  ],
+  "obj_softbody_node": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_solid_bikewall": [
+   "Draw"
+  ],
+  "obj_sound": [
+   "Alarm",
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_sound_draw": [
+   "Create",
+   "Draw"
+  ],
+  "obj_spacebrain": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_spaceicon": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_spacemonster": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_spaceoscillator": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_spacepirate": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_spaceposter": [
+   "Step"
+  ],
+  "obj_spacerobot": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_spaceworm": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_spark": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_spark_particle": [
+   "Create",
+   "Step"
+  ],
+  "obj_speedrun_master": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_speedrun_menu_master": [
+   "Create"
+  ],
+  "obj_speedrun_results_screen": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_splash": [
+   "Create",
+   "Draw"
+  ],
+  "obj_splash_online": [
+   "Create",
+   "Draw",
+   "KeyPress",
+   "Other",
+   "Step"
+  ],
+  "obj_splash_online_offline": [
+   "Create",
+   "Draw",
+   "KeyPress",
+   "Other",
+   "Step"
+  ],
+  "obj_spookymusic": [
+   "Create",
+   "Step"
+  ],
+  "obj_spotlight": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_springfloor": [
+   "Create",
+   "Draw"
+  ],
+  "obj_sprite_chunk": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_sprite_dissolver": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_sprite_trail": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_spriteswap": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_stable_cable": [
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_stage_clear": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_stage_clear_nofx": [
+   "Draw"
+  ],
+  "obj_staircase_gangster": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_start_title_menu": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_static_trail": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_staticparticle": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_stationary_saw": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_stealthmaster": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_sticky_mine": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_stomper": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_stomper_invisible": [
+   "Create",
+   "Draw"
+  ],
+  "obj_stompercloud": [
+   "Create",
+   "Step"
+  ],
+  "obj_stoner_glasses": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_stoner_hat": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_street_arm": [
+   "Create",
+   "Draw"
+  ],
+  "obj_street_bloodsplatter": [
+   "Create",
+   "Draw"
+  ],
+  "obj_streetlight": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_streetlight_orange": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_studio_directorchair": [
+   "Create",
+   "Draw"
+  ],
+  "obj_studio_prostitute": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_studio_prostitute_background": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_subhuman_text": [
+   "Create",
+   "Draw"
+  ],
+  "obj_swap_layer": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_swatvan": [
+   "CleanUp",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_swatvan_static": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_switch_master": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_switchtraps": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_sword_projectile_die": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_tape": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_tea": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_temp_block": [
+   "Draw"
+  ],
+  "obj_tempdoor": [
+   "Create",
+   "Draw"
+  ],
+  "obj_templeshadow": [
+   "Create",
+   "Step"
+  ],
+  "obj_test_enemy_aim": [
+   "Create",
+   "Draw"
+  ],
+  "obj_testcamera": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_testtube_pyro": [
+   "Create",
+   "Draw"
+  ],
+  "obj_testtube_telepath": [
+   "Create",
+   "Draw"
+  ],
+  "obj_textbox": [
+   "CleanUp",
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_texture_page_master": [
+   "Create",
+   "Other"
+  ],
+  "obj_throwable": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_throwable_fire": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_throwable_pistol": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Step"
+  ],
+  "obj_throwable_smoke": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_throwtarget": [
+   "Create"
+  ],
+  "obj_tiedup_shake_sides": [
+   "Create",
+   "Draw"
+  ],
+  "obj_tiedup_tracker": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_timeMaster": [
+   "Step"
+  ],
+  "obj_titlegraphic": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_titlegrass": [
+   "Create",
+   "Draw"
+  ],
+  "obj_titlemenu": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_titlemenu_old": [
+   "Create",
+   "Draw",
+   "KeyPress",
+   "Other",
+   "Step"
+  ],
+  "obj_titlerain": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_trackstats": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_tragedy": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_transition": [
+   "Create",
+   "Draw",
+   "Other"
+  ],
+  "obj_transition_fade": [
+   "Create",
+   "Other"
+  ],
+  "obj_trap": [
+   "Create"
+  ],
+  "obj_trigger_trap": [
+   "Create",
+   "Step"
+  ],
+  "obj_tutorial_1": [
+   "Create"
+  ],
+  "obj_tv_light": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_tv_remote": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_tvwire": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_uparrow": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_vhs_distortion": [
+   "Create",
+   "Step"
+  ],
+  "obj_vhs_flap": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_videostore_clerk": [
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_vlimo": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_vlimo_building": [
+   "Draw"
+  ],
+  "obj_walkKeyHeld": [
+   "Create",
+   "Other"
+  ],
+  "obj_wall_cam": [
+   "Alarm",
+   "Create",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_waypoint_sight_blocker": [
+   "Create"
+  ],
+  "obj_whytext": [
+   "Draw"
+  ],
+  "obj_window": [
+   "Draw"
+  ],
+  "obj_wiregate": [
+   "Create",
+   "Draw",
+   "Step"
+  ],
+  "obj_wobblefx": [
+   "Create",
+   "Step"
+  ],
+  "obj_xbox_load_master": [
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_xbox_master": [
+   "Alarm",
+   "Create",
+   "Other",
+   "Step"
+  ],
+  "obj_xbox_pause_menu": [
+   "Create",
+   "Destroy",
+   "Draw",
+   "Other",
+   "Step"
+  ],
+  "obj_zoomblur": [
+   "Create",
+   "Draw"
+  ],
+  "object868": [
+   "Draw"
+  ]
+ },
+ "scripts": [
+  "",
+  "AI_aim",
+  "AI_aimP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_can_shoot",
+  "AI_can_shootP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_find_waypoint_down",
+  "AI_find_waypoint_downP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_find_waypoint_up",
+  "AI_find_waypoint_upP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_hearing",
+  "AI_hearingP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_init",
+  "AI_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_line_of_sight",
+  "AI_line_of_sightP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_move_aimer",
+  "AI_move_aimerP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_object_in_sight",
+  "AI_object_in_sightP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_physics",
+  "AI_physicsP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_see_player",
+  "AI_see_playerP9CInstanceS0_R8YYRValueiPPS1_",
+  "Cancel",
+  "Cancel_anon_648___NfxClassCloudOp___NfxClassCloudOp",
+  "Cancel_anon_648___NfxClassCloudOp___NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "Cancel_anon_715___NfxClassStatOp___NfxClassStatOp",
+  "Cancel_anon_715___NfxClassStatOp___NfxClassStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "Cancel_anon_788___NfxClassLeaderboardOp___NfxClassLeaderboardOp",
+  "Cancel_anon_788___NfxClassLeaderboardOp___NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "Concat",
+  "ConcatP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetCancelled",
+  "GetCancelled_anon_1149___NfxClassCloudOp___NfxClassCloudOp",
+  "GetCancelled_anon_1149___NfxClassCloudOp___NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetCancelled_anon_1227___NfxClassStatOp___NfxClassStatOp",
+  "GetCancelled_anon_1227___NfxClassStatOp___NfxClassStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetCancelled_anon_1315___NfxClassLeaderboardOp___NfxClassLeaderboardOp",
+  "GetCancelled_anon_1315___NfxClassLeaderboardOp___NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetComplete",
+  "GetComplete_anon_1235___NfxClassCloudOp___NfxClassCloudOp",
+  "GetComplete_anon_1235___NfxClassCloudOp___NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetComplete_anon_1313___NfxClassStatOp___NfxClassStatOp",
+  "GetComplete_anon_1313___NfxClassStatOp___NfxClassStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetComplete_anon_1401___NfxClassLeaderboardOp___NfxClassLeaderboardOp",
+  "GetComplete_anon_1401___NfxClassLeaderboardOp___NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetLeaderboardName",
+  "GetLeaderboardName_anon_1933___NfxClassLeaderboardOp___NfxClassLeaderboardOp",
+  "GetLeaderboardName_anon_1933___NfxClassLeaderboardOp___NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetOperation",
+  "GetOperation_anon_1402___NfxClassCloudOp___NfxClassCloudOp",
+  "GetOperation_anon_1402___NfxClassCloudOp___NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetOperation_anon_1480___NfxClassStatOp___NfxClassStatOp",
+  "GetOperation_anon_1480___NfxClassStatOp___NfxClassStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetOperation_anon_1568___NfxClassLeaderboardOp___NfxClassLeaderboardOp",
+  "GetOperation_anon_1568___NfxClassLeaderboardOp___NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetPendingTime",
+  "GetPendingTime_anon_1491___NfxClassCloudOp___NfxClassCloudOp",
+  "GetPendingTime_anon_1491___NfxClassCloudOp___NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetPendingTime_anon_1569___NfxClassStatOp___NfxClassStatOp",
+  "GetPendingTime_anon_1569___NfxClassStatOp___NfxClassStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetPendingTime_anon_1657___NfxClassLeaderboardOp___NfxClassLeaderboardOp",
+  "GetPendingTime_anon_1657___NfxClassLeaderboardOp___NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetSlotID",
+  "GetSlotID_anon_1758___NfxClassCloudOp___NfxClassCloudOp",
+  "GetSlotID_anon_1758___NfxClassCloudOp___NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetStarted",
+  "GetStarted_anon_1064___NfxClassCloudOp___NfxClassCloudOp",
+  "GetStarted_anon_1064___NfxClassCloudOp___NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetStarted_anon_1142___NfxClassStatOp___NfxClassStatOp",
+  "GetStarted_anon_1142___NfxClassStatOp___NfxClassStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetStarted_anon_1230___NfxClassLeaderboardOp___NfxClassLeaderboardOp",
+  "GetStarted_anon_1230___NfxClassLeaderboardOp___NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetStatName",
+  "GetStatName_anon_1674___NfxClassStatOp___NfxClassStatOp",
+  "GetStatName_anon_1674___NfxClassStatOp___NfxClassStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetStatus",
+  "GetStatus_anon_1318___NfxClassCloudOp___NfxClassCloudOp",
+  "GetStatus_anon_1318___NfxClassCloudOp___NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetStatus_anon_1396___NfxClassStatOp___NfxClassStatOp",
+  "GetStatus_anon_1396___NfxClassStatOp___NfxClassStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetStatus_anon_1484___NfxClassLeaderboardOp___NfxClassLeaderboardOp",
+  "GetStatus_anon_1484___NfxClassLeaderboardOp___NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetValue",
+  "GetValue_anon_1593___NfxClassCloudOp___NfxClassCloudOp",
+  "GetValue_anon_1593___NfxClassCloudOp___NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "GetValue_anon_1759___NfxClassLeaderboardOp___NfxClassLeaderboardOp",
+  "GetValue_anon_1759___NfxClassLeaderboardOp___NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxAsyncSocialHandler",
+  "NfxAsyncSocialHandlerP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxClassLeaderboardEntry",
+  "NfxClassLeaderboardEntryP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudCancelAll",
+  "NfxCloudCancelAllP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudConflictExists",
+  "NfxCloudConflictExistsP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudConflictGetLocal",
+  "NfxCloudConflictGetLocalP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudConflictGetRemote",
+  "NfxCloudConflictGetRemoteP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudDelete",
+  "NfxCloudDeleteP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudPendingCount",
+  "NfxCloudPendingCountP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudRead",
+  "NfxCloudReadP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudResolve",
+  "NfxCloudResolveP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudWrite",
+  "NfxCloudWriteP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxEndStepHandler",
+  "NfxEndStepHandlerP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxGetBlockSignOut",
+  "NfxGetBlockSignOutP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxGetGameHandle",
+  "NfxGetGameHandleP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxGetLanguageCode",
+  "NfxGetLanguageCodeP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxGetPlayerID",
+  "NfxGetPlayerIDP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxHideMenuButton",
+  "NfxHideMenuButtonP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxInit",
+  "NfxInitP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxLeaderboardGetCurrentPlayerEntry",
+  "NfxLeaderboardGetCurrentPlayerEntryP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxLeaderboardGetEntriesAroundCurrentPlayer",
+  "NfxLeaderboardGetEntriesAroundCurrentPlayerP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxLeaderboardGetInfo",
+  "NfxLeaderboardGetInfoP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxLeaderboardGetTopEntries",
+  "NfxLeaderboardGetTopEntriesP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxSetBlockSignOut",
+  "NfxSetBlockSignOutP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxSetCallback",
+  "NfxSetCallbackP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxShowMenuButton",
+  "NfxShowMenuButtonP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxShowUI",
+  "NfxShowUIP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxStatGetAsync",
+  "NfxStatGetAsyncP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxStatSubmit",
+  "NfxStatSubmitNow",
+  "NfxStatSubmitNowP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxStatSubmitP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxTelemetryCheckpoint",
+  "NfxTelemetryCheckpointP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxTelemetryFTUEComplete",
+  "NfxTelemetryFTUECompleteP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxTelemetryFTUEStart",
+  "NfxTelemetryFTUEStartP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxTelemetryFTUEStep",
+  "NfxTelemetryFTUEStepP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxTelemetryGameComplete",
+  "NfxTelemetryGameCompleteP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxTelemetryNewGame",
+  "NfxTelemetryNewGameP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageCloudSave",
+  "PageCloudSaveP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageConflict",
+  "PageConflictP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageGame",
+  "PageGameP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageLeaderboards",
+  "PageLeaderboardsP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageLoad",
+  "PageLoadP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageLoadWait",
+  "PageLoadWaitP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageMainMenu",
+  "PageMainMenuP9CInstanceS0_R8YYRValueiPPS1_",
+  "PagePause",
+  "PagePauseP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageStart",
+  "PageStartP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageStats",
+  "PageStatsP9CInstanceS0_R8YYRValueiPPS1_",
+  "SetValue",
+  "SetValue_anon_1672___NfxClassCloudOp___NfxClassCloudOp",
+  "SetValue_anon_1672___NfxClassCloudOp___NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "SetValue_anon_1838___NfxClassLeaderboardOp___NfxClassLeaderboardOp",
+  "SetValue_anon_1838___NfxClassLeaderboardOp___NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "Trace",
+  "TraceError",
+  "TraceErrorP9CInstanceS0_R8YYRValueiPPS1_",
+  "TraceP9CInstanceS0_R8YYRValueiPPS1_",
+  "UIButton",
+  "UIButtonInline",
+  "UIButtonInlineP9CInstanceS0_R8YYRValueiPPS1_",
+  "UIButtonP9CInstanceS0_R8YYRValueiPPS1_",
+  "UINewline",
+  "UINewlineP9CInstanceS0_R8YYRValueiPPS1_",
+  "UISpace",
+  "UISpaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "UIStart",
+  "UIStartP9CInstanceS0_R8YYRValueiPPS1_",
+  "UIText",
+  "UITextInline",
+  "UITextInlineP9CInstanceS0_R8YYRValueiPPS1_",
+  "UITextP9CInstanceS0_R8YYRValueiPPS1_",
+  "UITextWrap",
+  "UITextWrapP9CInstanceS0_R8YYRValueiPPS1_",
+  "__Complete",
+  "__Complete_anon_3050___NfxClassStatOp___NfxClassStatOp",
+  "__Complete_anon_3050___NfxClassStatOp___NfxClassStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__Complete_anon_4002___NfxClassLeaderboardOp___NfxClassLeaderboardOp",
+  "__Complete_anon_4002___NfxClassLeaderboardOp___NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__Complete_anon_4790___NfxClassCloudOp___NfxClassCloudOp",
+  "__Complete_anon_4790___NfxClassCloudOp___NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxClassCloudOp",
+  "__NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxClassLeaderboardOp",
+  "__NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxClassStatOp",
+  "__NfxClassStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxCloudDeleteCallback",
+  "__NfxCloudDeleteCallbackP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxCloudReadCallback",
+  "__NfxCloudReadCallbackP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxCloudResolveCallback",
+  "__NfxCloudResolveCallbackP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxCloudWriteCallback",
+  "__NfxCloudWriteCallbackP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxError",
+  "__NfxErrorP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxPushCloudOp",
+  "__NfxPushCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxPushLeaderboardOp",
+  "__NfxPushLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxPushStatOp",
+  "__NfxPushStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxSystem",
+  "__NfxSystemP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxTrace",
+  "__NfxTraceP9CInstanceS0_R8YYRValueiPPS1_",
+  "__Submit",
+  "__Submit_anon_1756___NfxClassStatOp___NfxClassStatOp",
+  "__Submit_anon_1756___NfxClassStatOp___NfxClassStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__Submit_anon_1838___NfxClassCloudOp___NfxClassCloudOp",
+  "__Submit_anon_1838___NfxClassCloudOp___NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__Submit_anon_2022___NfxClassLeaderboardOp___NfxClassLeaderboardOp",
+  "__Submit_anon_2022___NfxClassLeaderboardOp___NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "___struct___0",
+  "___struct___0___NfxSystem___NfxSystem",
+  "___struct___0___NfxSystem___NfxSystemP9CInstanceS0_R8YYRValueiPPS1_",
+  "___struct___1",
+  "___struct___1___NfxSystem___NfxSystem",
+  "___struct___1___NfxSystem___NfxSystemP9CInstanceS0_R8YYRValueiPPS1_",
+  "___struct___2",
+  "___struct___2_NfxAsyncSocialHandler_NfxAsyncSocialHandler",
+  "___struct___2_NfxAsyncSocialHandler_NfxAsyncSocialHandlerP9CInstanceS0_R8YYRValueiPPS1_",
+  "___struct___3",
+  "___struct___3_gml_Object_obj_init_Create_0",
+  "___struct___3_gml_Object_obj_init_Create_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "___struct___4",
+  "___struct___4_gml_Object_obj_init_Create_0",
+  "___struct___4_gml_Object_obj_init_Create_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "___struct___5",
+  "___struct___5_gml_Object_obj_netflixSDK_Create_0",
+  "___struct___5_gml_Object_obj_netflixSDK_Create_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "___struct___6",
+  "___struct___6_gml_Object_obj_netflixSDK_Create_0",
+  "___struct___6_gml_Object_obj_netflixSDK_Create_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "___struct___7",
+  "___struct___7_gml_Object_obj_old_netflixSDK_Create_0",
+  "___struct___7_gml_Object_obj_old_netflixSDK_Create_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "___struct___8",
+  "___struct___8_gml_Object_obj_old_netflixSDK_Create_0",
+  "___struct___8_gml_Object_obj_old_netflixSDK_Create_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "__global_object_depths",
+  "__global_object_depthsP9CInstanceS0_R8YYRValueiPPS1_",
+  "__init_action",
+  "__init_actionP9CInstanceS0_R8YYRValueiPPS1_",
+  "__init_background",
+  "__init_backgroundP9CInstanceS0_R8YYRValueiPPS1_",
+  "__init_global",
+  "__init_globalP9CInstanceS0_R8YYRValueiPPS1_",
+  "__init_view",
+  "__init_viewP9CInstanceS0_R8YYRValueiPPS1_",
+  "__view_get",
+  "__view_getP9CInstanceS0_R8YYRValueiPPS1_",
+  "__view_set",
+  "__view_setP9CInstanceS0_R8YYRValueiPPS1_",
+  "__view_set_internal",
+  "__view_set_internalP9CInstanceS0_R8YYRValueiPPS1_",
+  "action_end_game",
+  "action_end_gameP9CInstanceS0_R8YYRValueiPPS1_",
+  "action_inherited",
+  "action_inheritedP9CInstanceS0_R8YYRValueiPPS1_",
+  "actor_init",
+  "actor_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "addTxDebug",
+  "addTxDebug_gml_Object_obj_netflixSDK_Create_0",
+  "addTxDebug_gml_Object_obj_netflixSDK_Create_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "addTxDebug_gml_Object_obj_old_netflixSDK_Create_0",
+  "addTxDebug_gml_Object_obj_old_netflixSDK_Create_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "add_bloodtile",
+  "add_bloodtileP9CInstanceS0_R8YYRValueiPPS1_",
+  "add_choice",
+  "add_choiceP9CInstanceS0_R8YYRValueiPPS1_",
+  "add_pausemenu_choice",
+  "add_pausemenu_choiceP9CInstanceS0_R8YYRValueiPPS1_",
+  "add_textsfx",
+  "add_textsfxP9CInstanceS0_R8YYRValueiPPS1_",
+  "add_voiceover",
+  "add_voiceoverP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_add_special_animation",
+  "ai_add_special_animationP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_aim_overlap",
+  "ai_aim_overlapP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_aim_to_run",
+  "ai_aim_to_runP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_break_idle",
+  "ai_break_idleP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_check_for_edge",
+  "ai_check_for_edgeP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_check_for_flame",
+  "ai_check_for_flameP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_check_for_trap",
+  "ai_check_for_trapP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_check_stairdoor",
+  "ai_check_stairdoorP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_find_soundsource",
+  "ai_find_soundsourceP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_idle_ground",
+  "ai_idle_groundP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_idle_walking",
+  "ai_idle_walkingP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_open_door",
+  "ai_open_doorP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_overlap",
+  "ai_overlapP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_running_actions",
+  "ai_running_actionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_runstall_to_run",
+  "ai_runstall_to_runP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_set_gunpoint",
+  "ai_set_gunpointP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_set_hair",
+  "ai_set_hairP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_shieldcop_vulnerablecheck",
+  "ai_shieldcop_vulnerablecheckP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_state_control",
+  "ai_state_controlP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_update_target",
+  "ai_update_targetP9CInstanceS0_R8YYRValueiPPS1_",
+  "angle_distance",
+  "angle_distanceP9CInstanceS0_R8YYRValueiPPS1_",
+  "animation_code",
+  "animation_codeP9CInstanceS0_R8YYRValueiPPS1_",
+  "animation_init",
+  "animation_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon",
+  "anon_1027_anon_931_PageLeaderboards_PageLeaderboards",
+  "anon_1027_anon_931_PageLeaderboards_PageLeaderboardsP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_1085_PageStats_PageStats",
+  "anon_1085_PageStats_PageStatsP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_1383_PageLeaderboards_PageLeaderboards",
+  "anon_1383_PageLeaderboards_PageLeaderboardsP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_1463_anon_1383_PageLeaderboards_PageLeaderboards",
+  "anon_1463_anon_1383_PageLeaderboards_PageLeaderboardsP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_159_anon_66___NfxConfigCallbacks___NfxConfigCallbacks",
+  "anon_159_anon_66___NfxConfigCallbacks___NfxConfigCallbacksP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_1814_PageLeaderboards_PageLeaderboards",
+  "anon_1814_PageLeaderboards_PageLeaderboardsP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_246_PagePause_PagePause",
+  "anon_246_PagePause_PagePauseP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_249_PageGame_PageGame",
+  "anon_249_PageGame_PageGameP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_257_PageLeaderboards_PageLeaderboards",
+  "anon_257_PageLeaderboards_PageLeaderboardsP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_307_PageStats_PageStats",
+  "anon_307_PageStats_PageStatsP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_311_PageMainMenu_PageMainMenu",
+  "anon_311_PageMainMenu_PageMainMenuP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_3125___NfxConfigCallbacks",
+  "anon_3125___NfxConfigCallbacksP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_316_PageCloudSave_PageCloudSave",
+  "anon_316_PageCloudSave_PageCloudSaveP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_323_PageConflict_PageConflict",
+  "anon_323_PageConflict_PageConflictP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_328_anon_257_PageLeaderboards_PageLeaderboards",
+  "anon_328_anon_257_PageLeaderboards_PageLeaderboardsP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_3517___NfxConfigCallbacks",
+  "anon_3517___NfxConfigCallbacksP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_3595___NfxSystem___NfxSystem",
+  "anon_3595___NfxSystem___NfxSystemP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_3663___NfxConfigCallbacks",
+  "anon_3663___NfxConfigCallbacksP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_3705___NfxSystem___NfxSystem",
+  "anon_3705___NfxSystem___NfxSystemP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_3919___NfxConfigCallbacks",
+  "anon_3919___NfxConfigCallbacksP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_408_PageCloudSave_PageCloudSave",
+  "anon_408_PageCloudSave_PageCloudSaveP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_440_PageMainMenu_PageMainMenu",
+  "anon_440_PageMainMenu_PageMainMenuP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_471_PageStats_PageStats",
+  "anon_471_PageStats_PageStatsP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_4833___NfxConfigCallbacks",
+  "anon_4833___NfxConfigCallbacksP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_4972___NfxConfigCallbacks",
+  "anon_4972___NfxConfigCallbacksP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_497_PageCloudSave_PageCloudSave",
+  "anon_497_PageCloudSave_PageCloudSaveP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_569_PageMainMenu_PageMainMenu",
+  "anon_569_PageMainMenu_PageMainMenuP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_579_PageConflict_PageConflict",
+  "anon_579_PageConflict_PageConflictP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_583_PageLeaderboards_PageLeaderboards",
+  "anon_583_PageLeaderboards_PageLeaderboardsP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_609_PageCloudSave_PageCloudSave",
+  "anon_609_PageCloudSave_PageCloudSaveP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_634_PageStats_PageStats",
+  "anon_634_PageStats_PageStatsP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_668_anon_583_PageLeaderboards_PageLeaderboards",
+  "anon_668_anon_583_PageLeaderboards_PageLeaderboardsP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_66___NfxConfigCallbacks",
+  "anon_66___NfxConfigCallbacksP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_697_anon_634_PageStats_PageStats",
+  "anon_697_anon_634_PageStats_PageStatsP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_701_PageMainMenu_PageMainMenu",
+  "anon_701_PageMainMenu_PageMainMenuP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_708_PageCloudSave_PageCloudSave",
+  "anon_708_PageCloudSave_PageCloudSaveP9CInstanceS0_R8YYRValueiPPS1_",
+  "anon_931_PageLeaderboards_PageLeaderboards",
+  "anon_931_PageLeaderboards_PageLeaderboardsP9CInstanceS0_R8YYRValueiPPS1_",
+  "array_removefirst",
+  "array_removefirstP9CInstanceS0_R8YYRValueiPPS1_",
+  "background_get_height",
+  "background_get_heightP9CInstanceS0_R8YYRValueiPPS1_",
+  "background_get_width",
+  "background_get_widthP9CInstanceS0_R8YYRValueiPPS1_",
+  "begin_animation",
+  "begin_animationP9CInstanceS0_R8YYRValueiPPS1_",
+  "best_item_spawn",
+  "best_item_spawnP9CInstanceS0_R8YYRValueiPPS1_",
+  "best_respawn",
+  "best_respawnP9CInstanceS0_R8YYRValueiPPS1_",
+  "block_meeting",
+  "block_meetingP9CInstanceS0_R8YYRValueiPPS1_",
+  "breathe",
+  "breatheP9CInstanceS0_R8YYRValueiPPS1_",
+  "breathe_init",
+  "breathe_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "bullet_hit",
+  "bullet_hitP9CInstanceS0_R8YYRValueiPPS1_",
+  "calcSaveTx",
+  "calcSaveTx_saveData_scrTelemetryControl",
+  "calcSaveTx_saveData_scrTelemetryControlP9CInstanceS0_R8YYRValueiPPS1_",
+  "cbAccessChange",
+  "cbAccessChange_gml_Object_obj_netflixSDK_Alarm_0",
+  "cbAccessChange_gml_Object_obj_netflixSDK_Alarm_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "cbAccessRequest",
+  "cbAccessRequest_gml_Object_obj_netflixSDK_Alarm_0",
+  "cbAccessRequest_gml_Object_obj_netflixSDK_Alarm_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "cbCloudDelete",
+  "cbCloudDelete_gml_Object_obj_netflixSDK_Alarm_0",
+  "cbCloudDelete_gml_Object_obj_netflixSDK_Alarm_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "cbCloudRead",
+  "cbCloudRead_gml_Object_obj_netflixSDK_Alarm_0",
+  "cbCloudRead_gml_Object_obj_netflixSDK_Alarm_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "cbCloudWrite",
+  "cbCloudWrite_gml_Object_obj_netflixSDK_Alarm_0",
+  "cbCloudWrite_gml_Object_obj_netflixSDK_Alarm_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "cbUIHide",
+  "cbUIHide_gml_Object_obj_netflixSDK_Alarm_0",
+  "cbUIHide_gml_Object_obj_netflixSDK_Alarm_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "cbUIShow",
+  "cbUIShow_gml_Object_obj_netflixSDK_Alarm_0",
+  "cbUIShow_gml_Object_obj_netflixSDK_Alarm_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "ceiling_check",
+  "ceiling_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "char_to_milli",
+  "char_to_milliP9CInstanceS0_R8YYRValueiPPS1_",
+  "checkButtonColl",
+  "checkButtonColl_gml_Object_obj_replayBtns_Create_0",
+  "checkButtonColl_gml_Object_obj_replayBtns_Create_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "checkButtonColl_gml_Object_obj_screenBtn_Create_0",
+  "checkButtonColl_gml_Object_obj_screenBtn_Create_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "checkButtonColl_gml_Object_obj_screenJoystick_Create_0",
+  "checkButtonColl_gml_Object_obj_screenJoystick_Create_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "check_bikeslash_collision",
+  "check_bikeslash_collisionP9CInstanceS0_R8YYRValueiPPS1_",
+  "check_controls_valid",
+  "check_controls_validP9CInstanceS0_R8YYRValueiPPS1_",
+  "check_katana_unlocked",
+  "check_katana_unlockedP9CInstanceS0_R8YYRValueiPPS1_",
+  "check_light_collision",
+  "check_light_collisionP9CInstanceS0_R8YYRValueiPPS1_",
+  "check_light_collision_new",
+  "check_light_collision_newP9CInstanceS0_R8YYRValueiPPS1_",
+  "choose_random",
+  "choose_randomP9CInstanceS0_R8YYRValueiPPS1_",
+  "clear_screen",
+  "clear_screenP9CInstanceS0_R8YYRValueiPPS1_",
+  "club_script",
+  "club_scriptP9CInstanceS0_R8YYRValueiPPS1_",
+  "compute_attract_strength",
+  "compute_attract_strengthP9CInstanceS0_R8YYRValueiPPS1_",
+  "compute_path",
+  "compute_pathP9CInstanceS0_R8YYRValueiPPS1_",
+  "compute_path_new",
+  "compute_path_newP9CInstanceS0_R8YYRValueiPPS1_",
+  "controller_check",
+  "controller_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "controller_check_ext",
+  "controller_check_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "controller_check_pressed",
+  "controller_check_pressedP9CInstanceS0_R8YYRValueiPPS1_",
+  "controller_check_pressed_ext",
+  "controller_check_pressed_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_audio_looper",
+  "create_audio_looperP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_choicebox",
+  "create_choiceboxP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_controls_menu",
+  "create_controls_menuP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_corpse",
+  "create_corpseP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_cutscene_camera",
+  "create_cutscene_cameraP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_dust",
+  "create_dustP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_dust_var",
+  "create_dust_varP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_enemybike_formation",
+  "create_enemybike_formationP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_enemybike_formation_vertical",
+  "create_enemybike_formation_verticalP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_explosion",
+  "create_explosionP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_fade",
+  "create_fadeP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_flash",
+  "create_flashP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_link",
+  "create_linkP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_memory_flash",
+  "create_memory_flashP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_metal_projectile",
+  "create_metal_projectileP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_mobile_controls_menu_options",
+  "create_mobile_controls_menu_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_motion_trail",
+  "create_motion_trailP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_motion_trail_bg",
+  "create_motion_trail_bgP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_motion_trail_bg_growing",
+  "create_motion_trail_bg_growingP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_node",
+  "create_nodeP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_player",
+  "create_playerP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_popuptext",
+  "create_popuptextP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_roomsfx",
+  "create_roomsfxP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_smoke",
+  "create_smokeP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_smokescreen",
+  "create_smokescreenP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_sound",
+  "create_soundP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_sound_floor",
+  "create_sound_floorP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_spriteswap",
+  "create_spriteswapP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_static_trail",
+  "create_static_trailP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_textbox",
+  "create_textboxP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_textbox_auto",
+  "create_textbox_autoP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_textbox_passive",
+  "create_textbox_passiveP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_textbox_passive_auto",
+  "create_textbox_passive_autoP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_trail",
+  "create_trailP9CInstanceS0_R8YYRValueiPPS1_",
+  "customErrorLog",
+  "customErrorLogP9CInstanceS0_R8YYRValueiPPS1_",
+  "cutscene_init",
+  "cutscene_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "cutscene_move_player",
+  "cutscene_move_playerP9CInstanceS0_R8YYRValueiPPS1_",
+  "cutscene_wait",
+  "cutscene_waitP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_1",
+  "dialogue_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_apartment5_movie_girl",
+  "dialogue_apartment5_movie_girlP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_apartment5_movie_solo",
+  "dialogue_apartment5_movie_soloP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_apartment_note",
+  "dialogue_apartment_noteP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_apartment_searchresult_leviathan_fail",
+  "dialogue_apartment_searchresult_leviathan_failP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_apartment_searchresult_leviathan_failf",
+  "dialogue_apartment_searchresult_leviathan_failfP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bar_0",
+  "dialogue_bar_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bar_1",
+  "dialogue_bar_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bar_2",
+  "dialogue_bar_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bar_3",
+  "dialogue_bar_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_access_denied",
+  "dialogue_bunker_access_deniedP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_end",
+  "dialogue_bunker_endP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_headhunter_1",
+  "dialogue_bunker_headhunter_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_headhunter_2",
+  "dialogue_bunker_headhunter_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_headhunter_dying",
+  "dialogue_bunker_headhunter_dyingP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_receptionist",
+  "dialogue_bunker_receptionistP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_receptionist_oldguy",
+  "dialogue_bunker_receptionist_oldguyP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_candy",
+  "dialogue_candyP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_bouncer",
+  "dialogue_chinatown_bouncerP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_bouncer_2",
+  "dialogue_chinatown_bouncer_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_cops",
+  "dialogue_chinatown_copsP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_end_cops",
+  "dialogue_chinatown_end_copsP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_end_cops_die",
+  "dialogue_chinatown_end_cops_dieP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_end_cops_fire",
+  "dialogue_chinatown_end_cops_fireP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_end_maskedmen_1",
+  "dialogue_chinatown_end_maskedmen_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_end_maskedmen_2",
+  "dialogue_chinatown_end_maskedmen_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_headhunter_2",
+  "dialogue_chinatown_headhunter_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_headhunter_dragon",
+  "dialogue_chinatown_headhunter_dragonP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_passive_cops",
+  "dialogue_chinatown_passive_copsP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_roulette_1",
+  "dialogue_chinatown_roulette_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_2_tut1",
+  "dialogue_club_2_tut1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_2_tut2",
+  "dialogue_club_2_tut2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_bouncer",
+  "dialogue_club_bouncerP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_bouncerfriend",
+  "dialogue_club_bouncerfriendP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_electrohead",
+  "dialogue_club_electroheadP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_phone",
+  "dialogue_club_phoneP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_pipes",
+  "dialogue_club_pipesP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_run",
+  "dialogue_club_runP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_skinnyricky",
+  "dialogue_club_skinnyrickyP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_dragon_cops_preentrance",
+  "dialogue_dragon_cops_preentranceP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_dragon_entrance",
+  "dialogue_dragon_entranceP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_dragon_fa_yuan",
+  "dialogue_dragon_fa_yuanP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_ending_snow",
+  "dialogue_ending_snowP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_ending_walkie",
+  "dialogue_ending_walkieP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_factory_v",
+  "dialogue_factory_vP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_factory_v_autokill",
+  "dialogue_factory_v_autokillP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_factorysci",
+  "dialogue_factorysciP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_factorysci_toosoon",
+  "dialogue_factorysci_toosoonP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_fullscreen_0",
+  "dialogue_fullscreen_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_gangster_1",
+  "dialogue_gangster_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_10",
+  "dialogue_girl_apartment_10P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_10_1",
+  "dialogue_girl_apartment_10_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_10_2",
+  "dialogue_girl_apartment_10_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_10_3",
+  "dialogue_girl_apartment_10_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_10_4",
+  "dialogue_girl_apartment_10_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_3_1",
+  "dialogue_girl_apartment_3_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_3_3",
+  "dialogue_girl_apartment_3_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_3_4",
+  "dialogue_girl_apartment_3_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_4_leavemovie",
+  "dialogue_girl_apartment_4_leavemovieP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_7_afternoon_1",
+  "dialogue_girl_apartment_7_afternoon_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_7_afternoon_2",
+  "dialogue_girl_apartment_7_afternoon_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_7_morning",
+  "dialogue_girl_apartment_7_morningP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_7_morning_2",
+  "dialogue_girl_apartment_7_morning_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_9_afternoon",
+  "dialogue_girl_apartment_9_afternoonP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_9_afternoon_rooftop_1",
+  "dialogue_girl_apartment_9_afternoon_rooftop_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_9_afternoon_rooftop_2",
+  "dialogue_girl_apartment_9_afternoon_rooftop_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_candy",
+  "dialogue_girl_candyP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_halloween",
+  "dialogue_girl_halloweenP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_hallway_2",
+  "dialogue_girl_hallway_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_hallway_3",
+  "dialogue_girl_hallway_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_hallway_4",
+  "dialogue_girl_hallway_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_hallway_6",
+  "dialogue_girl_hallway_6P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_govtlab_locked",
+  "dialogue_govtlab_lockedP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_hallway_passive",
+  "dialogue_hallway_passiveP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_hallway_police_1",
+  "dialogue_hallway_police_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_hallway_police_2",
+  "dialogue_hallway_police_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_hallway_police_3",
+  "dialogue_hallway_police_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_haunted_elevator",
+  "dialogue_haunted_elevatorP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_haunted_robot",
+  "dialogue_haunted_robot2",
+  "dialogue_haunted_robot2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_haunted_robotP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_haunted_vbreath",
+  "dialogue_haunted_vbreathP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_haunted_vbreath_nosword",
+  "dialogue_haunted_vbreath_noswordP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_headhunter_fight_1",
+  "dialogue_headhunter_fight_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_headhunter_fight_2",
+  "dialogue_headhunter_fight_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_headhunter_fight_3",
+  "dialogue_headhunter_fight_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_homeless_vet",
+  "dialogue_homeless_vetP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_init",
+  "dialogue_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_jukebox",
+  "dialogue_jukeboxP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_leon_death",
+  "dialogue_leon_deathP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_lobby_cop",
+  "dialogue_lobby_copP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_eavesdrop",
+  "dialogue_mansion_eavesdropP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_fall",
+  "dialogue_mansion_fallP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_kissyface_1",
+  "dialogue_mansion_kissyface_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_kissyface_2",
+  "dialogue_mansion_kissyface_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_outside",
+  "dialogue_mansion_outsideP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_outside_2",
+  "dialogue_mansion_outside_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_v_death",
+  "dialogue_mansion_v_deathP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_maskedmen1",
+  "dialogue_maskedmen1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_maskedmen_alleyway",
+  "dialogue_maskedmen_alleywayP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_maskedmen_postcredits",
+  "dialogue_maskedmen_postcreditsP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_motel_gangsters",
+  "dialogue_motel_gangstersP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mysterious_call",
+  "dialogue_mysterious_callP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_nightmare_scientist_gibberish",
+  "dialogue_nightmare_scientist_gibberishP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_nightmare_scientist_gibberish_2",
+  "dialogue_nightmare_scientist_gibberish_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_nightmare_scientist_gibberish_3",
+  "dialogue_nightmare_scientist_gibberish_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_nightmare_scientist_talk",
+  "dialogue_nightmare_scientist_talkP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_notea",
+  "dialogue_noteaP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_penthouse",
+  "dialogue_penthouseP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_prison_call",
+  "dialogue_prison_callP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_prison_call_nochronos",
+  "dialogue_prison_call_nochronosP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_prison_cops",
+  "dialogue_prison_copsP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_prison_toiletguy",
+  "dialogue_prison_toiletguyP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_10",
+  "dialogue_psych_10P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_11",
+  "dialogue_psych_11P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_11_battle",
+  "dialogue_psych_11_battleP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_2",
+  "dialogue_psych_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_3",
+  "dialogue_psych_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_4",
+  "dialogue_psych_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_6_1",
+  "dialogue_psych_6_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_6_2",
+  "dialogue_psych_6_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_6_3",
+  "dialogue_psych_6_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_6_4",
+  "dialogue_psych_6_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_7",
+  "dialogue_psych_7P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_7_2",
+  "dialogue_psych_7_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_7_3",
+  "dialogue_psych_7_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_desk_angry",
+  "dialogue_psych_desk_angryP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_desk_annoyed",
+  "dialogue_psych_desk_annoyedP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_desk_generic",
+  "dialogue_psych_desk_genericP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_desk_picture",
+  "dialogue_psych_desk_pictureP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_desk_rock",
+  "dialogue_psych_desk_rockP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_note",
+  "dialogue_psych_noteP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_paper",
+  "dialogue_psych_paperP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_passive",
+  "dialogue_psych_passiveP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_passive_2",
+  "dialogue_psych_passive_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_receptionist",
+  "dialogue_receptionistP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_receptionist_2",
+  "dialogue_receptionist_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_1",
+  "dialogue_results_10",
+  "dialogue_results_10P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_11",
+  "dialogue_results_11P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_1_bad",
+  "dialogue_results_1_badP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_2_bad",
+  "dialogue_results_2_badP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_2_good",
+  "dialogue_results_2_goodP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_3_bad",
+  "dialogue_results_3_badP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_3_good",
+  "dialogue_results_3_goodP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_3_okay",
+  "dialogue_results_3_okayP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_4_bad",
+  "dialogue_results_4_badP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_4_good",
+  "dialogue_results_4_goodP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_4_nochronos_bad",
+  "dialogue_results_4_nochronos_badP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_4_nochronos_good",
+  "dialogue_results_4_nochronos_goodP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_5",
+  "dialogue_results_5P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_6",
+  "dialogue_results_6P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_7",
+  "dialogue_results_7P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_9",
+  "dialogue_results_9P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_9_2",
+  "dialogue_results_9_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_1",
+  "dialogue_sniper_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_2_fail",
+  "dialogue_sniper_2_failP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_2_success",
+  "dialogue_sniper_2_successP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_3",
+  "dialogue_sniper_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_4",
+  "dialogue_sniper_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_5",
+  "dialogue_sniper_5P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_6",
+  "dialogue_sniper_6P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_1",
+  "dialogue_sniper_fake_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_2",
+  "dialogue_sniper_fake_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_3",
+  "dialogue_sniper_fake_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_4",
+  "dialogue_sniper_fake_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_6",
+  "dialogue_sniper_fake_6P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_7",
+  "dialogue_sniper_fake_7P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_8",
+  "dialogue_sniper_fake_8P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_9",
+  "dialogue_sniper_fake_9P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_wave0",
+  "dialogue_sniper_wave0P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_wave_complete",
+  "dialogue_sniper_wave_completeP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_snuff_0",
+  "dialogue_snuff_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_snuff_1",
+  "dialogue_snuff_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_snuff_2",
+  "dialogue_snuff_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_snuff_3",
+  "dialogue_snuff_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_snuff_4",
+  "dialogue_snuff_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_snuff_5",
+  "dialogue_snuff_5P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_finale_1",
+  "dialogue_studio_finale_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_finale_4",
+  "dialogue_studio_finale_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_finale_5",
+  "dialogue_studio_finale_5P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_finale_6",
+  "dialogue_studio_finale_6P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_limo",
+  "dialogue_studio_limoP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_limo_outside",
+  "dialogue_studio_limo_outsideP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_v1",
+  "dialogue_studio_v1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_v2",
+  "dialogue_studio_v2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_v3",
+  "dialogue_studio_v3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_vphone",
+  "dialogue_studio_vphoneP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_tied_up",
+  "dialogue_tied_upP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_tv_1",
+  "dialogue_tv_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_tv_2",
+  "dialogue_tv_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_tv_3",
+  "dialogue_tv_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_tv_5",
+  "dialogue_tv_5P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_tv_6",
+  "dialogue_tv_6P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_unlocked_lab",
+  "dialogue_unlocked_labP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_videostore_girl",
+  "dialogue_videostore_girlP9CInstanceS0_R8YYRValueiPPS1_",
+  "dissolve_sprite",
+  "dissolve_spriteP9CInstanceS0_R8YYRValueiPPS1_",
+  "drawConflictData",
+  "drawConflictData_gml_Object_obj_continuegame_Create_0",
+  "drawConflictData_gml_Object_obj_continuegame_Create_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_beam_fragment",
+  "draw_beam_fragmentP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_bg_parallax",
+  "draw_bg_parallaxP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_bigcircle",
+  "draw_bigcircleP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_circleui",
+  "draw_circleuiP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_control",
+  "draw_controlP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_crt_image",
+  "draw_crt_imageP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_crt_image_ext",
+  "draw_crt_image_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_crt_surface",
+  "draw_crt_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_distorted_surface",
+  "draw_distorted_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_enemy",
+  "draw_enemyP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_enemy_icons",
+  "draw_enemy_iconsP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_fastcircle",
+  "draw_fastcircleP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_fastline_width_col",
+  "draw_fastline_width_colP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_flashlight",
+  "draw_flashlightP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_itemicon",
+  "draw_itemiconP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_laser",
+  "draw_laserP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_laser_horizontal",
+  "draw_laser_horizontalP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_lightning",
+  "draw_lightningP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_lightsphere",
+  "draw_lightsphereP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_line_dotted",
+  "draw_line_dottedP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_line_dotted_inconsistent",
+  "draw_line_dotted_inconsistentP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_line_dotted_radius",
+  "draw_line_dotted_radiusP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_minecart",
+  "draw_minecartP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_player",
+  "draw_playerP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_player_slowdown",
+  "draw_player_slowdownP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rail",
+  "draw_railP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rail_bottom",
+  "draw_rail_bottomP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_recolor_init",
+  "draw_recolor_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rect_col",
+  "draw_rect_colP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rim_shading",
+  "draw_rim_shadingP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rim_shading_surface",
+  "draw_rim_shading_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rim_shading_surface_object",
+  "draw_rim_shading_surface_objectP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rim_shading_surface_unbatched",
+  "draw_rim_shading_surface_unbatchedP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_semicircle",
+  "draw_semicircleP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_set_blend_mode",
+  "draw_set_blend_modeP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_set_font_localized",
+  "draw_set_font_localizedP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_set_font_override",
+  "draw_set_font_overrideP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_shadow",
+  "draw_shadowP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_speedrun_timer",
+  "draw_speedrun_timerP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_distorted",
+  "draw_sprite_distortedP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_distorted_logo",
+  "draw_sprite_distorted_logoP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_existing_surface",
+  "draw_sprite_existing_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_parallax",
+  "draw_sprite_parallaxP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_recolored",
+  "draw_sprite_recoloredP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_recolored_debug",
+  "draw_sprite_recolored_debugP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_recolored_old",
+  "draw_sprite_recolored_oldP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_recolored_old_2",
+  "draw_sprite_recolored_old_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_surface",
+  "draw_sprite_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_sway",
+  "draw_sprite_swayP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_wavy",
+  "draw_sprite_wavyP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_wavy_random",
+  "draw_sprite_wavy_randomP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_static",
+  "draw_staticP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_surface_recolored",
+  "draw_surface_recoloredP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_surface_recolored_old",
+  "draw_surface_recolored_oldP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_glow_ext",
+  "draw_text_glow_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_outline_ext",
+  "draw_text_outline_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled",
+  "draw_text_scaledP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_color",
+  "draw_text_scaled_colorP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_colour",
+  "draw_text_scaled_colourP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_ext_transformed",
+  "draw_text_scaled_ext_transformedP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_glow_ext",
+  "draw_text_scaled_glow_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_outline_ext",
+  "draw_text_scaled_outline_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_transformed",
+  "draw_text_scaled_transformedP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_transformed_color",
+  "draw_text_scaled_transformed_colorP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_transformed_colour",
+  "draw_text_scaled_transformed_colourP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_vcig",
+  "draw_vcigP9CInstanceS0_R8YYRValueiPPS1_",
+  "ds_grid_replace_all",
+  "ds_grid_replace_allP9CInstanceS0_R8YYRValueiPPS1_",
+  "enemy_hurt",
+  "enemy_hurtP9CInstanceS0_R8YYRValueiPPS1_",
+  "enemy_init_behaviour",
+  "enemy_init_behaviourP9CInstanceS0_R8YYRValueiPPS1_",
+  "enemy_special_idle",
+  "enemy_special_idleP9CInstanceS0_R8YYRValueiPPS1_",
+  "explosion_hit",
+  "explosion_hitP9CInstanceS0_R8YYRValueiPPS1_",
+  "fastmerge_col",
+  "fastmerge_colP9CInstanceS0_R8YYRValueiPPS1_",
+  "file_text_load",
+  "file_text_loadP9CInstanceS0_R8YYRValueiPPS1_",
+  "find_next_char",
+  "find_next_charP9CInstanceS0_R8YYRValueiPPS1_",
+  "find_next_scene",
+  "find_next_sceneP9CInstanceS0_R8YYRValueiPPS1_",
+  "find_next_tape",
+  "find_next_tapeP9CInstanceS0_R8YYRValueiPPS1_",
+  "flashlight_create",
+  "flashlight_createP9CInstanceS0_R8YYRValueiPPS1_",
+  "flashlight_draw",
+  "flashlight_drawP9CInstanceS0_R8YYRValueiPPS1_",
+  "floor_above",
+  "floor_aboveP9CInstanceS0_R8YYRValueiPPS1_",
+  "floor_below",
+  "floor_belowP9CInstanceS0_R8YYRValueiPPS1_",
+  "floor_check",
+  "floor_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "freeze_player",
+  "freeze_playerP9CInstanceS0_R8YYRValueiPPS1_",
+  "generateHashMultiplier",
+  "generateHashMultiplierP9CInstanceS0_R8YYRValueiPPS1_",
+  "generate_hash",
+  "generate_hashP9CInstanceS0_R8YYRValueiPPS1_",
+  "getStatusName",
+  "getStatusName_gml_Object_obj_netflixSDK_Create_0",
+  "getStatusName_gml_Object_obj_netflixSDK_Create_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "get_attract_strength",
+  "get_attract_strengthP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_choice_text",
+  "get_choice_textP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_electromagnet_direction",
+  "get_electromagnet_directionP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_face_button_sprite",
+  "get_face_button_spriteP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_flamethrower_direction",
+  "get_flamethrower_directionP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_input",
+  "get_inputP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_line_text",
+  "get_line_textP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_line_textbox_width",
+  "get_line_textbox_widthP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_misc_text",
+  "get_misc_textP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_pulse",
+  "get_pulseP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_random",
+  "get_randomP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_sound_vol",
+  "get_sound_volP9CInstanceS0_R8YYRValueiPPS1_",
+  "ground_meeting",
+  "ground_meetingP9CInstanceS0_R8YYRValueiPPS1_",
+  "increase_hash",
+  "increase_hashP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_controls",
+  "init_controlsP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_default_controls",
+  "init_default_controlsP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_default_controls_options",
+  "init_default_controls_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_default_mobile_controls_options",
+  "init_default_mobile_controls_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_levelselect_data",
+  "init_levelselect_dataP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_light_array",
+  "init_light_arrayP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_linesA",
+  "init_linesAP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_linesB",
+  "init_linesBP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_linesC",
+  "init_linesCP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_linesD",
+  "init_linesDP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_misc_text",
+  "init_misc_textP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_mobile_controls",
+  "init_mobile_controlsP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_option_translations",
+  "init_option_translationsP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_textbox_actors",
+  "init_textbox_actorsP9CInstanceS0_R8YYRValueiPPS1_",
+  "inside_camera",
+  "inside_cameraP9CInstanceS0_R8YYRValueiPPS1_",
+  "inside_screen",
+  "inside_screenP9CInstanceS0_R8YYRValueiPPS1_",
+  "inside_screen_line",
+  "inside_screen_lineP9CInstanceS0_R8YYRValueiPPS1_",
+  "inside_screen_point",
+  "inside_screen_pointP9CInstanceS0_R8YYRValueiPPS1_",
+  "inside_stage",
+  "inside_stageP9CInstanceS0_R8YYRValueiPPS1_",
+  "instance_create",
+  "instance_createP9CInstanceS0_R8YYRValueiPPS1_",
+  "interact_binary",
+  "interact_binaryP9CInstanceS0_R8YYRValueiPPS1_",
+  "is_attractable",
+  "is_attractableP9CInstanceS0_R8YYRValueiPPS1_",
+  "is_currently_attracted",
+  "is_currently_attractedP9CInstanceS0_R8YYRValueiPPS1_",
+  "is_metal",
+  "is_metalP9CInstanceS0_R8YYRValueiPPS1_",
+  "jumpdown_meeting",
+  "jumpdown_meetingP9CInstanceS0_R8YYRValueiPPS1_",
+  "kill_player",
+  "kill_playerP9CInstanceS0_R8YYRValueiPPS1_",
+  "level_y",
+  "level_yP9CInstanceS0_R8YYRValueiPPS1_",
+  "light_create",
+  "light_createP9CInstanceS0_R8YYRValueiPPS1_",
+  "light_draw",
+  "light_drawP9CInstanceS0_R8YYRValueiPPS1_",
+  "listen",
+  "listenP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_achievements",
+  "load_achievementsP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_controls",
+  "load_controlsP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_current_speedrun",
+  "load_current_speedrunP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_game",
+  "load_gameP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_options",
+  "load_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_speedrun_options",
+  "load_speedrun_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_variable",
+  "load_variableP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_variable_rounded",
+  "load_variable_roundedP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_variable_string",
+  "load_variable_stringP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_version_number",
+  "load_version_numberP9CInstanceS0_R8YYRValueiPPS1_",
+  "macros",
+  "macrosP9CInstanceS0_R8YYRValueiPPS1_",
+  "make_vhs_tape",
+  "make_vhs_tapeP9CInstanceS0_R8YYRValueiPPS1_",
+  "menu_init",
+  "menu_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "menu_step",
+  "menu_stepP9CInstanceS0_R8YYRValueiPPS1_",
+  "mobile_reset_game_data",
+  "mobile_reset_game_dataP9CInstanceS0_R8YYRValueiPPS1_",
+  "momentum_add",
+  "momentum_addP9CInstanceS0_R8YYRValueiPPS1_",
+  "move_contact_layer",
+  "move_contact_layerP9CInstanceS0_R8YYRValueiPPS1_",
+  "move_contact_layer_solid",
+  "move_contact_layer_solidP9CInstanceS0_R8YYRValueiPPS1_",
+  "object_get_depth",
+  "object_get_depthP9CInstanceS0_R8YYRValueiPPS1_",
+  "on_a_slope",
+  "on_a_slopeP9CInstanceS0_R8YYRValueiPPS1_",
+  "override_control_end",
+  "override_control_endP9CInstanceS0_R8YYRValueiPPS1_",
+  "override_control_init",
+  "override_control_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "physics_fix_glitched_position",
+  "physics_fix_glitched_positionP9CInstanceS0_R8YYRValueiPPS1_",
+  "pipeline_color_surface",
+  "pipeline_color_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "pipeline_draw",
+  "pipeline_drawP9CInstanceS0_R8YYRValueiPPS1_",
+  "pipeline_draw_to_screen",
+  "pipeline_draw_to_screenP9CInstanceS0_R8YYRValueiPPS1_",
+  "pipeline_grab_sprite_surface",
+  "pipeline_grab_sprite_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "pipeline_rim_shading",
+  "pipeline_rim_shadingP9CInstanceS0_R8YYRValueiPPS1_",
+  "place_meeting_radius",
+  "place_meeting_radiusP9CInstanceS0_R8YYRValueiPPS1_",
+  "place_meeting_radius_dir",
+  "place_meeting_radius_dirP9CInstanceS0_R8YYRValueiPPS1_",
+  "play_sound",
+  "play_soundP9CInstanceS0_R8YYRValueiPPS1_",
+  "play_sound_basic",
+  "play_sound_basicP9CInstanceS0_R8YYRValueiPPS1_",
+  "play_sound_ext",
+  "play_sound_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "play_sound_materialbounce",
+  "play_sound_materialbounceP9CInstanceS0_R8YYRValueiPPS1_",
+  "play_sound_pos",
+  "play_sound_posP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_air",
+  "player_airP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_airdodge",
+  "player_airdodgeP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_analogue_pressed_check",
+  "player_analogue_pressed_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_animation",
+  "player_animationP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_attack",
+  "player_attackP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_attack_check",
+  "player_attack_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_attack_check_old",
+  "player_attack_check_oldP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_bikethrow",
+  "player_bikethrowP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_block_check",
+  "player_block_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_blocking",
+  "player_blockingP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_bullettime_check",
+  "player_bullettime_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_cable_control",
+  "player_cable_controlP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_casual_walking",
+  "player_casual_walkingP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_casual_walking_old",
+  "player_casual_walking_oldP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_crouching",
+  "player_crouchingP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_dead",
+  "player_deadP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_doorbreak",
+  "player_doorbreakP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_draw_cableholdUI",
+  "player_draw_cableholdUIP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_electromagnet",
+  "player_electromagnetP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_exists",
+  "player_existsP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_flamethrower",
+  "player_flamethrowerP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_flying",
+  "player_flyingP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_freeze",
+  "player_freezeP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_get_attackdirection",
+  "player_get_attackdirectionP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_get_throwdirection",
+  "player_get_throwdirectionP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_hurt",
+  "player_hurtP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_hurtfall",
+  "player_hurtfallP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_hurtfly",
+  "player_hurtflyP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_hurtground",
+  "player_hurtgroundP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_idle_ground",
+  "player_idle_groundP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_input",
+  "player_inputP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_moving_ground",
+  "player_moving_groundP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_physics",
+  "player_physicsP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_quickswap",
+  "player_quickswapP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_ragdoll",
+  "player_ragdollP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_recover",
+  "player_recoverP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_rolling",
+  "player_rollingP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_screenjoystick_pressed_check",
+  "player_screenjoystick_pressed_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_secondary",
+  "player_secondaryP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_secondary_dragon",
+  "player_secondary_dragonP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_shoot_cable",
+  "player_shoot_cableP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_swapitem",
+  "player_swapitemP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_throw",
+  "player_throwP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_walking",
+  "player_walkingP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_wallgrab",
+  "player_wallgrabP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_walljump",
+  "player_walljumpP9CInstanceS0_R8YYRValueiPPS1_",
+  "predictive_line_break_tags",
+  "predictive_line_break_tagsP9CInstanceS0_R8YYRValueiPPS1_",
+  "predictive_line_break_tags_asian",
+  "predictive_line_break_tags_asianP9CInstanceS0_R8YYRValueiPPS1_",
+  "process_game_initialize",
+  "process_game_initializeP9CInstanceS0_R8YYRValueiPPS1_",
+  "process_reload_achievements_pending",
+  "process_reload_achievements_pendingP9CInstanceS0_R8YYRValueiPPS1_",
+  "process_reload_userprefs",
+  "process_reload_userprefsP9CInstanceS0_R8YYRValueiPPS1_",
+  "process_save_achievements_pending",
+  "process_save_achievements_pendingP9CInstanceS0_R8YYRValueiPPS1_",
+  "process_save_userprefs",
+  "process_save_userprefsP9CInstanceS0_R8YYRValueiPPS1_",
+  "pulse_init",
+  "pulse_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "ragdoll_physics",
+  "ragdoll_physicsP9CInstanceS0_R8YYRValueiPPS1_",
+  "record_me",
+  "record_meP9CInstanceS0_R8YYRValueiPPS1_",
+  "remove_doors",
+  "remove_doorsP9CInstanceS0_R8YYRValueiPPS1_",
+  "resolve_sound",
+  "resolve_soundP9CInstanceS0_R8YYRValueiPPS1_",
+  "restore_doors",
+  "restore_doorsP9CInstanceS0_R8YYRValueiPPS1_",
+  "room_transition",
+  "room_transitionP9CInstanceS0_R8YYRValueiPPS1_",
+  "room_transition_fade",
+  "room_transition_fadeP9CInstanceS0_R8YYRValueiPPS1_",
+  "saveData",
+  "saveDataP9CInstanceS0_R8YYRValueiPPS1_",
+  "saveTxDecode",
+  "saveTxDecode_saveData_scrTelemetryControl",
+  "saveTxDecode_saveData_scrTelemetryControlP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_achievements",
+  "save_achievementsP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_controls",
+  "save_controlsP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_current_speedrun",
+  "save_current_speedrunP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_game",
+  "save_gameP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_options",
+  "save_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_speedrun_options",
+  "save_speedrun_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_variable",
+  "save_variableP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_variable_rounded",
+  "save_variable_roundedP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_version_number",
+  "save_version_numberP9CInstanceS0_R8YYRValueiPPS1_",
+  "scrGetLang",
+  "scrGetLangP9CInstanceS0_R8YYRValueiPPS1_",
+  "scrPrintSaveData",
+  "scrPrintSaveDataP9CInstanceS0_R8YYRValueiPPS1_",
+  "scrRng",
+  "scrRngInt",
+  "scrRngIntP9CInstanceS0_R8YYRValueiPPS1_",
+  "scrRngP9CInstanceS0_R8YYRValueiPPS1_",
+  "scrRngPick",
+  "scrRngPickP9CInstanceS0_R8YYRValueiPPS1_",
+  "scrRngSeedmod",
+  "scrRngSeedmodP9CInstanceS0_R8YYRValueiPPS1_",
+  "scrTelemetryControl",
+  "scrTelemetryControlP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_addChoice",
+  "scr_addChoiceP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_addChoice_crossout",
+  "scr_addChoice_crossoutP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_addChoice_norepeat",
+  "scr_addChoice_norepeatP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_addInterrupt",
+  "scr_addInterruptP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_addInterrupt_crossout",
+  "scr_addInterrupt_crossoutP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_addInterrupt_norepeat",
+  "scr_addInterrupt_norepeatP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_highlightInteract",
+  "scr_highlightInteractP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_level_complete",
+  "scr_level_completeP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_level_complete_cut",
+  "scr_level_complete_cutP9CInstanceS0_R8YYRValueiPPS1_",
+  "screen_freeze",
+  "screen_freezeP9CInstanceS0_R8YYRValueiPPS1_",
+  "screen_shake",
+  "screen_shakeP9CInstanceS0_R8YYRValueiPPS1_",
+  "screen_shake_dir",
+  "screen_shake_dirP9CInstanceS0_R8YYRValueiPPS1_",
+  "seen_state",
+  "seen_stateP9CInstanceS0_R8YYRValueiPPS1_",
+  "set_actor_talksfx",
+  "set_actor_talksfxP9CInstanceS0_R8YYRValueiPPS1_",
+  "set_level",
+  "set_levelP9CInstanceS0_R8YYRValueiPPS1_",
+  "set_new_input",
+  "set_new_inputP9CInstanceS0_R8YYRValueiPPS1_",
+  "set_windowsize",
+  "set_windowsizeP9CInstanceS0_R8YYRValueiPPS1_",
+  "setup_speedrun_vars",
+  "setup_speedrun_varsP9CInstanceS0_R8YYRValueiPPS1_",
+  "shift_textbox",
+  "shift_textboxP9CInstanceS0_R8YYRValueiPPS1_",
+  "shift_textbox_arrow_horizontal",
+  "shift_textbox_arrow_horizontalP9CInstanceS0_R8YYRValueiPPS1_",
+  "show_hint",
+  "show_hintP9CInstanceS0_R8YYRValueiPPS1_",
+  "slash_hit",
+  "slash_hitP9CInstanceS0_R8YYRValueiPPS1_",
+  "slope_check",
+  "slope_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "slope_land_check",
+  "slope_land_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "smoke_blocked",
+  "smoke_blockedP9CInstanceS0_R8YYRValueiPPS1_",
+  "softbody_constraint",
+  "softbody_constraintP9CInstanceS0_R8YYRValueiPPS1_",
+  "softbody_constraint_strong",
+  "softbody_constraint_strongP9CInstanceS0_R8YYRValueiPPS1_",
+  "stealth_init",
+  "stealth_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "stop_music_sudden",
+  "stop_music_suddenP9CInstanceS0_R8YYRValueiPPS1_",
+  "switch_save_end",
+  "switch_save_endP9CInstanceS0_R8YYRValueiPPS1_",
+  "switch_saveload_begin",
+  "switch_saveload_beginP9CInstanceS0_R8YYRValueiPPS1_",
+  "testError",
+  "testErrorP9CInstanceS0_R8YYRValueiPPS1_",
+  "textbox_explode",
+  "textbox_explodeP9CInstanceS0_R8YYRValueiPPS1_",
+  "textbox_set_outline_color",
+  "textbox_set_outline_colorP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_add",
+  "tile_addP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_blood_map",
+  "tile_blood_mapP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_bump_map",
+  "tile_bump_mapP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_exists",
+  "tile_existsP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_get_background",
+  "tile_get_backgroundP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_get_height",
+  "tile_get_heightP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_get_left",
+  "tile_get_leftP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_get_top",
+  "tile_get_topP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_get_width",
+  "tile_get_widthP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_layer_delete",
+  "tile_layer_deleteP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_layer_find",
+  "tile_layer_findP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_layer_move",
+  "tile_layer_moveP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_layer_move_init",
+  "tile_layer_move_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_layer_shift",
+  "tile_layer_shiftP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_set_scale",
+  "tile_set_scaleP9CInstanceS0_R8YYRValueiPPS1_",
+  "timer_to_string",
+  "timer_to_stringP9CInstanceS0_R8YYRValueiPPS1_",
+  "titlemenu_add_choice",
+  "titlemenu_add_choiceP9CInstanceS0_R8YYRValueiPPS1_",
+  "toString",
+  "toString_anon_3969___NfxClassStatOp___NfxClassStatOp",
+  "toString_anon_3969___NfxClassStatOp___NfxClassStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "toString_anon_4830___NfxClassLeaderboardOp___NfxClassLeaderboardOp",
+  "toString_anon_4830___NfxClassLeaderboardOp___NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "toString_anon_5759___NfxClassCloudOp___NfxClassCloudOp",
+  "toString_anon_5759___NfxClassCloudOp___NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "translate_option",
+  "translate_optionP9CInstanceS0_R8YYRValueiPPS1_",
+  "trigger_steam_achievement",
+  "trigger_steam_achievementP9CInstanceS0_R8YYRValueiPPS1_",
+  "trigger_xbox_achievement",
+  "trigger_xbox_achievementP9CInstanceS0_R8YYRValueiPPS1_",
+  "turret_aim",
+  "turret_aimP9CInstanceS0_R8YYRValueiPPS1_",
+  "turret_line_of_sight",
+  "turret_line_of_sightP9CInstanceS0_R8YYRValueiPPS1_",
+  "update_light_array",
+  "update_light_arrayP9CInstanceS0_R8YYRValueiPPS1_",
+  "update_light_array_ext",
+  "update_light_array_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "update_light_array_sorted",
+  "update_light_array_sortedP9CInstanceS0_R8YYRValueiPPS1_",
+  "update_region",
+  "update_regionP9CInstanceS0_R8YYRValueiPPS1_",
+  "update_seen_states",
+  "update_seen_statesP9CInstanceS0_R8YYRValueiPPS1_",
+  "wall_check",
+  "wall_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "wallcam_compute_angle",
+  "wallcam_compute_angleP9CInstanceS0_R8YYRValueiPPS1_",
+  "waypoint_compute",
+  "waypoint_computeP9CInstanceS0_R8YYRValueiPPS1_",
+  "waypoint_compute_OLD",
+  "waypoint_compute_OLDP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_abort_loading",
+  "xbox_abort_loadingP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_change_user",
+  "xbox_change_userP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_create_profile_pause",
+  "xbox_create_profile_pauseP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_flash_load",
+  "xbox_flash_loadP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_flash_load_speedrun",
+  "xbox_flash_load_speedrunP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_flash_save",
+  "xbox_flash_saveP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_flash_save_speedrun",
+  "xbox_flash_save_speedrunP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_get_os_language",
+  "xbox_get_os_languageP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_kick_to_title",
+  "xbox_kick_to_titleP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_pause_game",
+  "xbox_pause_gameP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_process_pending_achievements",
+  "xbox_process_pending_achievementsP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_reset_game_data",
+  "xbox_reset_game_dataP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_reset_gamertag",
+  "xbox_reset_gamertagP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_reset_save",
+  "xbox_reset_saveP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_room_is_game_room",
+  "xbox_room_is_game_roomP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_room_start_set_rich_presence",
+  "xbox_room_start_set_rich_presenceP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_save_end",
+  "xbox_save_endP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_set_rich_presence",
+  "xbox_set_rich_presenceP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_unpause_game",
+  "xbox_unpause_gameP9CInstanceS0_R8YYRValueiPPS1_"
+ ],
+ "global_scripts": [
+  "0",
+  "0P9CInstanceS0_R8YYRValueiPPS1_",
+  "1",
+  "1P9CInstanceS0_R8YYRValueiPPS1_",
+  "2",
+  "2P9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_aim",
+  "AI_aimP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_can_shoot",
+  "AI_can_shootP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_find_waypoint_down",
+  "AI_find_waypoint_downP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_find_waypoint_up",
+  "AI_find_waypoint_upP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_hearing",
+  "AI_hearingP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_init",
+  "AI_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_line_of_sight",
+  "AI_line_of_sightP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_move_aimer",
+  "AI_move_aimerP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_object_in_sight",
+  "AI_object_in_sightP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_physics",
+  "AI_physicsP9CInstanceS0_R8YYRValueiPPS1_",
+  "AI_see_player",
+  "AI_see_playerP9CInstanceS0_R8YYRValueiPPS1_",
+  "Concat",
+  "ConcatP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxAsyncSocialHandler",
+  "NfxAsyncSocialHandlerP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxClassLeaderboardEntry",
+  "NfxClassLeaderboardEntryP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudCancelAll",
+  "NfxCloudCancelAllP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudConflictExists",
+  "NfxCloudConflictExistsP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudConflictGetLocal",
+  "NfxCloudConflictGetLocalP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudConflictGetRemote",
+  "NfxCloudConflictGetRemoteP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudDelete",
+  "NfxCloudDeleteP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudRead",
+  "NfxCloudReadP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudResolve",
+  "NfxCloudResolveP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudSavePendingCount",
+  "NfxCloudSavePendingCountP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxCloudWrite",
+  "NfxCloudWriteP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxEndStepHandler",
+  "NfxEndStepHandlerP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxGetBlockSignOut",
+  "NfxGetBlockSignOutP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxGetGameHandle",
+  "NfxGetGameHandleP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxGetLanguageCode",
+  "NfxGetLanguageCodeP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxGetPlayerID",
+  "NfxGetPlayerIDP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxHideMenuButton",
+  "NfxHideMenuButtonP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxInit",
+  "NfxInitP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxLeaderboardGetCurrentPlayerEntry",
+  "NfxLeaderboardGetCurrentPlayerEntryP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxLeaderboardGetEntriesAroundCurrentPlayer",
+  "NfxLeaderboardGetEntriesAroundCurrentPlayerP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxLeaderboardGetInfo",
+  "NfxLeaderboardGetInfoP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxLeaderboardGetTopEntries",
+  "NfxLeaderboardGetTopEntriesP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxSetBlockSignOut",
+  "NfxSetBlockSignOutP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxSetCallback",
+  "NfxSetCallbackP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxShowMenuButton",
+  "NfxShowMenuButtonP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxShowUI",
+  "NfxShowUIP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxStatGetAsync",
+  "NfxStatGetAsyncP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxStatSubmit",
+  "NfxStatSubmitNow",
+  "NfxStatSubmitNowP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxStatSubmitP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxTelemetryCheckpoint",
+  "NfxTelemetryCheckpointP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxTelemetryFTUEComplete",
+  "NfxTelemetryFTUECompleteP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxTelemetryFTUEStart",
+  "NfxTelemetryFTUEStartP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxTelemetryFTUEStep",
+  "NfxTelemetryFTUEStepP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxTelemetryGameComplete",
+  "NfxTelemetryGameCompleteP9CInstanceS0_R8YYRValueiPPS1_",
+  "NfxTelemetryNewGame",
+  "NfxTelemetryNewGameP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageCloudSave",
+  "PageCloudSaveP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageConflict",
+  "PageConflictP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageGame",
+  "PageGameP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageLeaderboards",
+  "PageLeaderboardsP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageLoad",
+  "PageLoadP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageLoadWait",
+  "PageLoadWaitP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageMainMenu",
+  "PageMainMenuP9CInstanceS0_R8YYRValueiPPS1_",
+  "PagePause",
+  "PagePauseP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageStart",
+  "PageStartP9CInstanceS0_R8YYRValueiPPS1_",
+  "PageStats",
+  "PageStatsP9CInstanceS0_R8YYRValueiPPS1_",
+  "Trace",
+  "TraceError",
+  "TraceErrorP9CInstanceS0_R8YYRValueiPPS1_",
+  "TraceP9CInstanceS0_R8YYRValueiPPS1_",
+  "UIButton",
+  "UIButtonInline",
+  "UIButtonInlineP9CInstanceS0_R8YYRValueiPPS1_",
+  "UIButtonP9CInstanceS0_R8YYRValueiPPS1_",
+  "UINewline",
+  "UINewlineP9CInstanceS0_R8YYRValueiPPS1_",
+  "UISpace",
+  "UISpaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "UIStart",
+  "UIStartP9CInstanceS0_R8YYRValueiPPS1_",
+  "UIText",
+  "UITextInline",
+  "UITextInlineP9CInstanceS0_R8YYRValueiPPS1_",
+  "UITextP9CInstanceS0_R8YYRValueiPPS1_",
+  "UITextWrap",
+  "UITextWrapP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxClassCloudOp",
+  "__NfxClassCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxClassLeaderboardOp",
+  "__NfxClassLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxClassStatOp",
+  "__NfxClassStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxConfig",
+  "__NfxConfigCallbacks",
+  "__NfxConfigCallbacksP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxConfigP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxError",
+  "__NfxErrorP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxPushCloudOp",
+  "__NfxPushCloudOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxPushLeaderboardOp",
+  "__NfxPushLeaderboardOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxPushStatOp",
+  "__NfxPushStatOpP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxSystem",
+  "__NfxSystemP9CInstanceS0_R8YYRValueiPPS1_",
+  "__NfxTrace",
+  "__NfxTraceP9CInstanceS0_R8YYRValueiPPS1_",
+  "__global_object_depths",
+  "__global_object_depthsP9CInstanceS0_R8YYRValueiPPS1_",
+  "__init_action",
+  "__init_actionP9CInstanceS0_R8YYRValueiPPS1_",
+  "__init_background",
+  "__init_backgroundP9CInstanceS0_R8YYRValueiPPS1_",
+  "__init_global",
+  "__init_globalP9CInstanceS0_R8YYRValueiPPS1_",
+  "__init_view",
+  "__init_viewP9CInstanceS0_R8YYRValueiPPS1_",
+  "__view_get",
+  "__view_getP9CInstanceS0_R8YYRValueiPPS1_",
+  "__view_set",
+  "__view_setP9CInstanceS0_R8YYRValueiPPS1_",
+  "__view_set_internal",
+  "__view_set_internalP9CInstanceS0_R8YYRValueiPPS1_",
+  "action_end_game",
+  "action_end_gameP9CInstanceS0_R8YYRValueiPPS1_",
+  "action_inherited",
+  "action_inheritedP9CInstanceS0_R8YYRValueiPPS1_",
+  "actor_init",
+  "actor_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "add_bloodtile",
+  "add_bloodtileP9CInstanceS0_R8YYRValueiPPS1_",
+  "add_choice",
+  "add_choiceP9CInstanceS0_R8YYRValueiPPS1_",
+  "add_pausemenu_choice",
+  "add_pausemenu_choiceP9CInstanceS0_R8YYRValueiPPS1_",
+  "add_textsfx",
+  "add_textsfxP9CInstanceS0_R8YYRValueiPPS1_",
+  "add_voiceover",
+  "add_voiceoverP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_add_special_animation",
+  "ai_add_special_animationP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_aim_overlap",
+  "ai_aim_overlapP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_aim_to_run",
+  "ai_aim_to_runP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_break_idle",
+  "ai_break_idleP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_check_for_edge",
+  "ai_check_for_edgeP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_check_for_flame",
+  "ai_check_for_flameP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_check_for_trap",
+  "ai_check_for_trapP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_check_stairdoor",
+  "ai_check_stairdoorP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_find_soundsource",
+  "ai_find_soundsourceP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_idle_ground",
+  "ai_idle_groundP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_idle_walking",
+  "ai_idle_walkingP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_open_door",
+  "ai_open_doorP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_overlap",
+  "ai_overlapP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_running_actions",
+  "ai_running_actionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_runstall_to_run",
+  "ai_runstall_to_runP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_set_gunpoint",
+  "ai_set_gunpointP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_set_hair",
+  "ai_set_hairP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_shieldcop_vulnerablecheck",
+  "ai_shieldcop_vulnerablecheckP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_state_control",
+  "ai_state_controlP9CInstanceS0_R8YYRValueiPPS1_",
+  "ai_update_target",
+  "ai_update_targetP9CInstanceS0_R8YYRValueiPPS1_",
+  "angle_distance",
+  "angle_distanceP9CInstanceS0_R8YYRValueiPPS1_",
+  "animation_code",
+  "animation_codeP9CInstanceS0_R8YYRValueiPPS1_",
+  "animation_init",
+  "animation_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "array_removefirst",
+  "array_removefirstP9CInstanceS0_R8YYRValueiPPS1_",
+  "background_get_height",
+  "background_get_heightP9CInstanceS0_R8YYRValueiPPS1_",
+  "background_get_width",
+  "background_get_widthP9CInstanceS0_R8YYRValueiPPS1_",
+  "begin_animation",
+  "begin_animationP9CInstanceS0_R8YYRValueiPPS1_",
+  "best_item_spawn",
+  "best_item_spawnP9CInstanceS0_R8YYRValueiPPS1_",
+  "best_respawn",
+  "best_respawnP9CInstanceS0_R8YYRValueiPPS1_",
+  "block_meeting",
+  "block_meetingP9CInstanceS0_R8YYRValueiPPS1_",
+  "breathe",
+  "breatheP9CInstanceS0_R8YYRValueiPPS1_",
+  "breathe_init",
+  "breathe_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "bullet_hit",
+  "bullet_hitP9CInstanceS0_R8YYRValueiPPS1_",
+  "ceiling_check",
+  "ceiling_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "char_to_milli",
+  "char_to_milliP9CInstanceS0_R8YYRValueiPPS1_",
+  "check_bikeslash_collision",
+  "check_bikeslash_collisionP9CInstanceS0_R8YYRValueiPPS1_",
+  "check_controls_valid",
+  "check_controls_validP9CInstanceS0_R8YYRValueiPPS1_",
+  "check_katana_unlocked",
+  "check_katana_unlockedP9CInstanceS0_R8YYRValueiPPS1_",
+  "check_light_collision",
+  "check_light_collisionP9CInstanceS0_R8YYRValueiPPS1_",
+  "check_light_collision_new",
+  "check_light_collision_newP9CInstanceS0_R8YYRValueiPPS1_",
+  "choose_random",
+  "choose_randomP9CInstanceS0_R8YYRValueiPPS1_",
+  "clear_screen",
+  "clear_screenP9CInstanceS0_R8YYRValueiPPS1_",
+  "club_script",
+  "club_scriptP9CInstanceS0_R8YYRValueiPPS1_",
+  "compute_attract_strength",
+  "compute_attract_strengthP9CInstanceS0_R8YYRValueiPPS1_",
+  "compute_path",
+  "compute_pathP9CInstanceS0_R8YYRValueiPPS1_",
+  "compute_path_new",
+  "compute_path_newP9CInstanceS0_R8YYRValueiPPS1_",
+  "controller_check",
+  "controller_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "controller_check_ext",
+  "controller_check_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "controller_check_pressed",
+  "controller_check_pressedP9CInstanceS0_R8YYRValueiPPS1_",
+  "controller_check_pressed_ext",
+  "controller_check_pressed_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_audio_looper",
+  "create_audio_looperP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_choicebox",
+  "create_choiceboxP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_controls_menu",
+  "create_controls_menuP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_corpse",
+  "create_corpseP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_cutscene_camera",
+  "create_cutscene_cameraP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_dust",
+  "create_dustP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_dust_var",
+  "create_dust_varP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_enemybike_formation",
+  "create_enemybike_formationP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_enemybike_formation_vertical",
+  "create_enemybike_formation_verticalP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_explosion",
+  "create_explosionP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_fade",
+  "create_fadeP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_flash",
+  "create_flashP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_link",
+  "create_linkP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_memory_flash",
+  "create_memory_flashP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_metal_projectile",
+  "create_metal_projectileP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_mobile_controls_menu_options",
+  "create_mobile_controls_menu_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_motion_trail",
+  "create_motion_trailP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_motion_trail_bg",
+  "create_motion_trail_bgP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_motion_trail_bg_growing",
+  "create_motion_trail_bg_growingP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_node",
+  "create_nodeP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_player",
+  "create_playerP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_popuptext",
+  "create_popuptextP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_roomsfx",
+  "create_roomsfxP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_smoke",
+  "create_smokeP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_smokescreen",
+  "create_smokescreenP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_sound",
+  "create_soundP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_sound_floor",
+  "create_sound_floorP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_spriteswap",
+  "create_spriteswapP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_static_trail",
+  "create_static_trailP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_textbox",
+  "create_textboxP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_textbox_auto",
+  "create_textbox_autoP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_textbox_passive",
+  "create_textbox_passiveP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_textbox_passive_auto",
+  "create_textbox_passive_autoP9CInstanceS0_R8YYRValueiPPS1_",
+  "create_trail",
+  "create_trailP9CInstanceS0_R8YYRValueiPPS1_",
+  "cutscene_init",
+  "cutscene_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "cutscene_move_player",
+  "cutscene_move_playerP9CInstanceS0_R8YYRValueiPPS1_",
+  "cutscene_wait",
+  "cutscene_waitP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_1",
+  "dialogue_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_apartment5_movie_girl",
+  "dialogue_apartment5_movie_girlP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_apartment5_movie_solo",
+  "dialogue_apartment5_movie_soloP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_apartment_note",
+  "dialogue_apartment_noteP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_apartment_searchresult_leviathan_fail",
+  "dialogue_apartment_searchresult_leviathan_failP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_apartment_searchresult_leviathan_failf",
+  "dialogue_apartment_searchresult_leviathan_failfP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bar_0",
+  "dialogue_bar_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bar_1",
+  "dialogue_bar_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bar_2",
+  "dialogue_bar_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bar_3",
+  "dialogue_bar_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_access_denied",
+  "dialogue_bunker_access_deniedP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_end",
+  "dialogue_bunker_endP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_headhunter_1",
+  "dialogue_bunker_headhunter_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_headhunter_2",
+  "dialogue_bunker_headhunter_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_headhunter_dying",
+  "dialogue_bunker_headhunter_dyingP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_receptionist",
+  "dialogue_bunker_receptionistP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_bunker_receptionist_oldguy",
+  "dialogue_bunker_receptionist_oldguyP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_candy",
+  "dialogue_candyP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_bouncer",
+  "dialogue_chinatown_bouncerP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_bouncer_2",
+  "dialogue_chinatown_bouncer_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_cops",
+  "dialogue_chinatown_copsP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_end_cops",
+  "dialogue_chinatown_end_copsP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_end_cops_die",
+  "dialogue_chinatown_end_cops_dieP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_end_cops_fire",
+  "dialogue_chinatown_end_cops_fireP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_end_maskedmen_1",
+  "dialogue_chinatown_end_maskedmen_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_end_maskedmen_2",
+  "dialogue_chinatown_end_maskedmen_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_headhunter_2",
+  "dialogue_chinatown_headhunter_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_headhunter_dragon",
+  "dialogue_chinatown_headhunter_dragonP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_passive_cops",
+  "dialogue_chinatown_passive_copsP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_chinatown_roulette_1",
+  "dialogue_chinatown_roulette_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_2_tut1",
+  "dialogue_club_2_tut1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_2_tut2",
+  "dialogue_club_2_tut2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_bouncer",
+  "dialogue_club_bouncerP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_bouncerfriend",
+  "dialogue_club_bouncerfriendP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_electrohead",
+  "dialogue_club_electroheadP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_phone",
+  "dialogue_club_phoneP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_pipes",
+  "dialogue_club_pipesP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_run",
+  "dialogue_club_runP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_club_skinnyricky",
+  "dialogue_club_skinnyrickyP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_dragon_cops_preentrance",
+  "dialogue_dragon_cops_preentranceP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_dragon_entrance",
+  "dialogue_dragon_entranceP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_dragon_fa_yuan",
+  "dialogue_dragon_fa_yuanP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_ending_snow",
+  "dialogue_ending_snowP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_ending_walkie",
+  "dialogue_ending_walkieP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_factory_v",
+  "dialogue_factory_vP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_factory_v_autokill",
+  "dialogue_factory_v_autokillP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_factorysci",
+  "dialogue_factorysciP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_factorysci_toosoon",
+  "dialogue_factorysci_toosoonP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_fullscreen_0",
+  "dialogue_fullscreen_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_gangster_1",
+  "dialogue_gangster_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_10",
+  "dialogue_girl_apartment_10P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_10_1",
+  "dialogue_girl_apartment_10_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_10_2",
+  "dialogue_girl_apartment_10_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_10_3",
+  "dialogue_girl_apartment_10_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_10_4",
+  "dialogue_girl_apartment_10_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_3_1",
+  "dialogue_girl_apartment_3_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_3_3",
+  "dialogue_girl_apartment_3_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_3_4",
+  "dialogue_girl_apartment_3_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_4_leavemovie",
+  "dialogue_girl_apartment_4_leavemovieP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_7_afternoon_1",
+  "dialogue_girl_apartment_7_afternoon_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_7_afternoon_2",
+  "dialogue_girl_apartment_7_afternoon_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_7_morning",
+  "dialogue_girl_apartment_7_morningP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_7_morning_2",
+  "dialogue_girl_apartment_7_morning_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_9_afternoon",
+  "dialogue_girl_apartment_9_afternoonP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_9_afternoon_rooftop_1",
+  "dialogue_girl_apartment_9_afternoon_rooftop_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_apartment_9_afternoon_rooftop_2",
+  "dialogue_girl_apartment_9_afternoon_rooftop_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_candy",
+  "dialogue_girl_candyP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_halloween",
+  "dialogue_girl_halloweenP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_hallway_2",
+  "dialogue_girl_hallway_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_hallway_3",
+  "dialogue_girl_hallway_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_hallway_4",
+  "dialogue_girl_hallway_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_girl_hallway_6",
+  "dialogue_girl_hallway_6P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_govtlab_locked",
+  "dialogue_govtlab_lockedP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_hallway_passive",
+  "dialogue_hallway_passiveP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_hallway_police_1",
+  "dialogue_hallway_police_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_hallway_police_2",
+  "dialogue_hallway_police_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_hallway_police_3",
+  "dialogue_hallway_police_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_haunted_elevator",
+  "dialogue_haunted_elevatorP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_haunted_robot",
+  "dialogue_haunted_robot2",
+  "dialogue_haunted_robot2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_haunted_robotP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_haunted_vbreath",
+  "dialogue_haunted_vbreathP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_haunted_vbreath_nosword",
+  "dialogue_haunted_vbreath_noswordP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_headhunter_fight_1",
+  "dialogue_headhunter_fight_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_headhunter_fight_2",
+  "dialogue_headhunter_fight_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_headhunter_fight_3",
+  "dialogue_headhunter_fight_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_homeless_vet",
+  "dialogue_homeless_vetP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_init",
+  "dialogue_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_jukebox",
+  "dialogue_jukeboxP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_leon_death",
+  "dialogue_leon_deathP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_lobby_cop",
+  "dialogue_lobby_copP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_eavesdrop",
+  "dialogue_mansion_eavesdropP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_fall",
+  "dialogue_mansion_fallP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_kissyface_1",
+  "dialogue_mansion_kissyface_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_kissyface_2",
+  "dialogue_mansion_kissyface_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_outside",
+  "dialogue_mansion_outsideP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_outside_2",
+  "dialogue_mansion_outside_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mansion_v_death",
+  "dialogue_mansion_v_deathP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_maskedmen1",
+  "dialogue_maskedmen1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_maskedmen_alleyway",
+  "dialogue_maskedmen_alleywayP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_maskedmen_postcredits",
+  "dialogue_maskedmen_postcreditsP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_motel_gangsters",
+  "dialogue_motel_gangstersP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_mysterious_call",
+  "dialogue_mysterious_callP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_nightmare_scientist_gibberish",
+  "dialogue_nightmare_scientist_gibberishP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_nightmare_scientist_gibberish_2",
+  "dialogue_nightmare_scientist_gibberish_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_nightmare_scientist_gibberish_3",
+  "dialogue_nightmare_scientist_gibberish_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_nightmare_scientist_talk",
+  "dialogue_nightmare_scientist_talkP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_notea",
+  "dialogue_noteaP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_penthouse",
+  "dialogue_penthouseP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_prison_call",
+  "dialogue_prison_callP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_prison_call_nochronos",
+  "dialogue_prison_call_nochronosP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_prison_cops",
+  "dialogue_prison_copsP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_prison_toiletguy",
+  "dialogue_prison_toiletguyP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_10",
+  "dialogue_psych_10P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_11",
+  "dialogue_psych_11P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_11_battle",
+  "dialogue_psych_11_battleP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_2",
+  "dialogue_psych_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_3",
+  "dialogue_psych_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_4",
+  "dialogue_psych_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_6_1",
+  "dialogue_psych_6_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_6_2",
+  "dialogue_psych_6_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_6_3",
+  "dialogue_psych_6_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_6_4",
+  "dialogue_psych_6_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_7",
+  "dialogue_psych_7P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_7_2",
+  "dialogue_psych_7_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_7_3",
+  "dialogue_psych_7_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_desk_angry",
+  "dialogue_psych_desk_angryP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_desk_annoyed",
+  "dialogue_psych_desk_annoyedP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_desk_generic",
+  "dialogue_psych_desk_genericP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_desk_picture",
+  "dialogue_psych_desk_pictureP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_desk_rock",
+  "dialogue_psych_desk_rockP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_note",
+  "dialogue_psych_noteP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_paper",
+  "dialogue_psych_paperP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_passive",
+  "dialogue_psych_passiveP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_psych_passive_2",
+  "dialogue_psych_passive_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_receptionist",
+  "dialogue_receptionistP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_receptionist_2",
+  "dialogue_receptionist_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_1",
+  "dialogue_results_10",
+  "dialogue_results_10P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_11",
+  "dialogue_results_11P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_1_bad",
+  "dialogue_results_1_badP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_2_bad",
+  "dialogue_results_2_badP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_2_good",
+  "dialogue_results_2_goodP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_3_bad",
+  "dialogue_results_3_badP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_3_good",
+  "dialogue_results_3_goodP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_3_okay",
+  "dialogue_results_3_okayP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_4_bad",
+  "dialogue_results_4_badP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_4_good",
+  "dialogue_results_4_goodP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_4_nochronos_bad",
+  "dialogue_results_4_nochronos_badP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_4_nochronos_good",
+  "dialogue_results_4_nochronos_goodP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_5",
+  "dialogue_results_5P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_6",
+  "dialogue_results_6P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_7",
+  "dialogue_results_7P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_9",
+  "dialogue_results_9P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_results_9_2",
+  "dialogue_results_9_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_1",
+  "dialogue_sniper_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_2_fail",
+  "dialogue_sniper_2_failP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_2_success",
+  "dialogue_sniper_2_successP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_3",
+  "dialogue_sniper_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_4",
+  "dialogue_sniper_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_5",
+  "dialogue_sniper_5P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_6",
+  "dialogue_sniper_6P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_1",
+  "dialogue_sniper_fake_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_2",
+  "dialogue_sniper_fake_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_3",
+  "dialogue_sniper_fake_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_4",
+  "dialogue_sniper_fake_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_6",
+  "dialogue_sniper_fake_6P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_7",
+  "dialogue_sniper_fake_7P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_8",
+  "dialogue_sniper_fake_8P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_fake_9",
+  "dialogue_sniper_fake_9P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_wave0",
+  "dialogue_sniper_wave0P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_sniper_wave_complete",
+  "dialogue_sniper_wave_completeP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_snuff_0",
+  "dialogue_snuff_0P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_snuff_1",
+  "dialogue_snuff_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_snuff_2",
+  "dialogue_snuff_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_snuff_3",
+  "dialogue_snuff_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_snuff_4",
+  "dialogue_snuff_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_snuff_5",
+  "dialogue_snuff_5P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_finale_1",
+  "dialogue_studio_finale_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_finale_4",
+  "dialogue_studio_finale_4P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_finale_5",
+  "dialogue_studio_finale_5P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_finale_6",
+  "dialogue_studio_finale_6P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_limo",
+  "dialogue_studio_limoP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_limo_outside",
+  "dialogue_studio_limo_outsideP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_v1",
+  "dialogue_studio_v1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_v2",
+  "dialogue_studio_v2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_v3",
+  "dialogue_studio_v3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_studio_vphone",
+  "dialogue_studio_vphoneP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_tied_up",
+  "dialogue_tied_upP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_tv_1",
+  "dialogue_tv_1P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_tv_2",
+  "dialogue_tv_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_tv_3",
+  "dialogue_tv_3P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_tv_5",
+  "dialogue_tv_5P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_tv_6",
+  "dialogue_tv_6P9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_unlocked_lab",
+  "dialogue_unlocked_labP9CInstanceS0_R8YYRValueiPPS1_",
+  "dialogue_videostore_girl",
+  "dialogue_videostore_girlP9CInstanceS0_R8YYRValueiPPS1_",
+  "dissolve_sprite",
+  "dissolve_spriteP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_beam_fragment",
+  "draw_beam_fragmentP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_bg_parallax",
+  "draw_bg_parallaxP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_bigcircle",
+  "draw_bigcircleP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_circleui",
+  "draw_circleuiP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_control",
+  "draw_controlP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_crt_image",
+  "draw_crt_imageP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_crt_image_ext",
+  "draw_crt_image_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_crt_surface",
+  "draw_crt_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_distorted_surface",
+  "draw_distorted_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_enemy",
+  "draw_enemyP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_enemy_icons",
+  "draw_enemy_iconsP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_fastcircle",
+  "draw_fastcircleP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_fastline_width_col",
+  "draw_fastline_width_colP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_flashlight",
+  "draw_flashlightP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_itemicon",
+  "draw_itemiconP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_laser",
+  "draw_laserP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_laser_horizontal",
+  "draw_laser_horizontalP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_lightning",
+  "draw_lightningP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_lightsphere",
+  "draw_lightsphereP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_line_dotted",
+  "draw_line_dottedP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_line_dotted_inconsistent",
+  "draw_line_dotted_inconsistentP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_line_dotted_radius",
+  "draw_line_dotted_radiusP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_minecart",
+  "draw_minecartP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_player",
+  "draw_playerP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_player_slowdown",
+  "draw_player_slowdownP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rail",
+  "draw_railP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rail_bottom",
+  "draw_rail_bottomP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_recolor_init",
+  "draw_recolor_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rect_col",
+  "draw_rect_colP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rim_shading",
+  "draw_rim_shadingP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rim_shading_surface",
+  "draw_rim_shading_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rim_shading_surface_object",
+  "draw_rim_shading_surface_objectP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_rim_shading_surface_unbatched",
+  "draw_rim_shading_surface_unbatchedP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_semicircle",
+  "draw_semicircleP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_set_blend_mode",
+  "draw_set_blend_modeP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_set_font_localized",
+  "draw_set_font_localizedP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_set_font_override",
+  "draw_set_font_overrideP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_shadow",
+  "draw_shadowP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_speedrun_timer",
+  "draw_speedrun_timerP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_distorted",
+  "draw_sprite_distortedP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_distorted_logo",
+  "draw_sprite_distorted_logoP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_existing_surface",
+  "draw_sprite_existing_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_parallax",
+  "draw_sprite_parallaxP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_recolored",
+  "draw_sprite_recoloredP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_recolored_debug",
+  "draw_sprite_recolored_debugP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_recolored_old",
+  "draw_sprite_recolored_oldP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_recolored_old_2",
+  "draw_sprite_recolored_old_2P9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_surface",
+  "draw_sprite_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_sway",
+  "draw_sprite_swayP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_wavy",
+  "draw_sprite_wavyP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_sprite_wavy_random",
+  "draw_sprite_wavy_randomP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_static",
+  "draw_staticP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_surface_recolored",
+  "draw_surface_recoloredP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_surface_recolored_old",
+  "draw_surface_recolored_oldP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_glow_ext",
+  "draw_text_glow_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_outline_ext",
+  "draw_text_outline_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled",
+  "draw_text_scaledP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_color",
+  "draw_text_scaled_colorP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_colour",
+  "draw_text_scaled_colourP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_ext_transformed",
+  "draw_text_scaled_ext_transformedP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_glow_ext",
+  "draw_text_scaled_glow_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_outline_ext",
+  "draw_text_scaled_outline_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_transformed",
+  "draw_text_scaled_transformedP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_transformed_color",
+  "draw_text_scaled_transformed_colorP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_text_scaled_transformed_colour",
+  "draw_text_scaled_transformed_colourP9CInstanceS0_R8YYRValueiPPS1_",
+  "draw_vcig",
+  "draw_vcigP9CInstanceS0_R8YYRValueiPPS1_",
+  "ds_grid_replace_all",
+  "ds_grid_replace_allP9CInstanceS0_R8YYRValueiPPS1_",
+  "enemy_hurt",
+  "enemy_hurtP9CInstanceS0_R8YYRValueiPPS1_",
+  "enemy_init_behaviour",
+  "enemy_init_behaviourP9CInstanceS0_R8YYRValueiPPS1_",
+  "enemy_special_idle",
+  "enemy_special_idleP9CInstanceS0_R8YYRValueiPPS1_",
+  "explosion_hit",
+  "explosion_hitP9CInstanceS0_R8YYRValueiPPS1_",
+  "fastmerge_col",
+  "fastmerge_colP9CInstanceS0_R8YYRValueiPPS1_",
+  "file_text_load",
+  "file_text_loadP9CInstanceS0_R8YYRValueiPPS1_",
+  "find_next_char",
+  "find_next_charP9CInstanceS0_R8YYRValueiPPS1_",
+  "find_next_scene",
+  "find_next_sceneP9CInstanceS0_R8YYRValueiPPS1_",
+  "find_next_tape",
+  "find_next_tapeP9CInstanceS0_R8YYRValueiPPS1_",
+  "flashlight_create",
+  "flashlight_createP9CInstanceS0_R8YYRValueiPPS1_",
+  "flashlight_draw",
+  "flashlight_drawP9CInstanceS0_R8YYRValueiPPS1_",
+  "floor_above",
+  "floor_aboveP9CInstanceS0_R8YYRValueiPPS1_",
+  "floor_below",
+  "floor_belowP9CInstanceS0_R8YYRValueiPPS1_",
+  "floor_check",
+  "floor_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "freeze_player",
+  "freeze_playerP9CInstanceS0_R8YYRValueiPPS1_",
+  "generate_hash",
+  "generate_hashP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_attract_strength",
+  "get_attract_strengthP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_choice_text",
+  "get_choice_textP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_electromagnet_direction",
+  "get_electromagnet_directionP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_face_button_sprite",
+  "get_face_button_spriteP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_flamethrower_direction",
+  "get_flamethrower_directionP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_input",
+  "get_inputP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_line_text",
+  "get_line_textP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_line_textbox_width",
+  "get_line_textbox_widthP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_misc_text",
+  "get_misc_textP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_pulse",
+  "get_pulseP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_random",
+  "get_randomP9CInstanceS0_R8YYRValueiPPS1_",
+  "get_sound_vol",
+  "get_sound_volP9CInstanceS0_R8YYRValueiPPS1_",
+  "ground_meeting",
+  "ground_meetingP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_controls",
+  "init_controlsP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_default_controls",
+  "init_default_controlsP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_default_controls_options",
+  "init_default_controls_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_default_mobile_controls_options",
+  "init_default_mobile_controls_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_levelselect_data",
+  "init_levelselect_dataP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_light_array",
+  "init_light_arrayP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_linesA",
+  "init_linesAP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_linesB",
+  "init_linesBP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_linesC",
+  "init_linesCP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_linesD",
+  "init_linesDP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_misc_text",
+  "init_misc_textP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_mobile_controls",
+  "init_mobile_controlsP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_option_translations",
+  "init_option_translationsP9CInstanceS0_R8YYRValueiPPS1_",
+  "init_textbox_actors",
+  "init_textbox_actorsP9CInstanceS0_R8YYRValueiPPS1_",
+  "inside_camera",
+  "inside_cameraP9CInstanceS0_R8YYRValueiPPS1_",
+  "inside_screen",
+  "inside_screenP9CInstanceS0_R8YYRValueiPPS1_",
+  "inside_screen_line",
+  "inside_screen_lineP9CInstanceS0_R8YYRValueiPPS1_",
+  "inside_screen_point",
+  "inside_screen_pointP9CInstanceS0_R8YYRValueiPPS1_",
+  "inside_stage",
+  "inside_stageP9CInstanceS0_R8YYRValueiPPS1_",
+  "instance_create",
+  "instance_createP9CInstanceS0_R8YYRValueiPPS1_",
+  "interact_binary",
+  "interact_binaryP9CInstanceS0_R8YYRValueiPPS1_",
+  "is_attractable",
+  "is_attractableP9CInstanceS0_R8YYRValueiPPS1_",
+  "is_currently_attracted",
+  "is_currently_attractedP9CInstanceS0_R8YYRValueiPPS1_",
+  "is_metal",
+  "is_metalP9CInstanceS0_R8YYRValueiPPS1_",
+  "jumpdown_meeting",
+  "jumpdown_meetingP9CInstanceS0_R8YYRValueiPPS1_",
+  "kill_player",
+  "kill_playerP9CInstanceS0_R8YYRValueiPPS1_",
+  "level_y",
+  "level_yP9CInstanceS0_R8YYRValueiPPS1_",
+  "light_create",
+  "light_createP9CInstanceS0_R8YYRValueiPPS1_",
+  "light_draw",
+  "light_drawP9CInstanceS0_R8YYRValueiPPS1_",
+  "listen",
+  "listenP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_achievements",
+  "load_achievementsP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_controls",
+  "load_controlsP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_current_speedrun",
+  "load_current_speedrunP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_game",
+  "load_gameP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_options",
+  "load_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_speedrun_options",
+  "load_speedrun_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "load_version_number",
+  "load_version_numberP9CInstanceS0_R8YYRValueiPPS1_",
+  "macros",
+  "macrosP9CInstanceS0_R8YYRValueiPPS1_",
+  "make_vhs_tape",
+  "make_vhs_tapeP9CInstanceS0_R8YYRValueiPPS1_",
+  "menu_init",
+  "menu_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "menu_step",
+  "menu_stepP9CInstanceS0_R8YYRValueiPPS1_",
+  "momentum_add",
+  "momentum_addP9CInstanceS0_R8YYRValueiPPS1_",
+  "move_contact_layer",
+  "move_contact_layerP9CInstanceS0_R8YYRValueiPPS1_",
+  "move_contact_layer_solid",
+  "move_contact_layer_solidP9CInstanceS0_R8YYRValueiPPS1_",
+  "object_get_depth",
+  "object_get_depthP9CInstanceS0_R8YYRValueiPPS1_",
+  "on_a_slope",
+  "on_a_slopeP9CInstanceS0_R8YYRValueiPPS1_",
+  "override_control_end",
+  "override_control_endP9CInstanceS0_R8YYRValueiPPS1_",
+  "override_control_init",
+  "override_control_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "physics_fix_glitched_position",
+  "physics_fix_glitched_positionP9CInstanceS0_R8YYRValueiPPS1_",
+  "pipeline_color_surface",
+  "pipeline_color_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "pipeline_draw",
+  "pipeline_drawP9CInstanceS0_R8YYRValueiPPS1_",
+  "pipeline_draw_to_screen",
+  "pipeline_draw_to_screenP9CInstanceS0_R8YYRValueiPPS1_",
+  "pipeline_grab_sprite_surface",
+  "pipeline_grab_sprite_surfaceP9CInstanceS0_R8YYRValueiPPS1_",
+  "pipeline_rim_shading",
+  "pipeline_rim_shadingP9CInstanceS0_R8YYRValueiPPS1_",
+  "place_meeting_radius",
+  "place_meeting_radiusP9CInstanceS0_R8YYRValueiPPS1_",
+  "place_meeting_radius_dir",
+  "place_meeting_radius_dirP9CInstanceS0_R8YYRValueiPPS1_",
+  "play_sound",
+  "play_soundP9CInstanceS0_R8YYRValueiPPS1_",
+  "play_sound_basic",
+  "play_sound_basicP9CInstanceS0_R8YYRValueiPPS1_",
+  "play_sound_ext",
+  "play_sound_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "play_sound_materialbounce",
+  "play_sound_materialbounceP9CInstanceS0_R8YYRValueiPPS1_",
+  "play_sound_pos",
+  "play_sound_posP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_air",
+  "player_airP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_airdodge",
+  "player_airdodgeP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_analogue_pressed_check",
+  "player_analogue_pressed_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_animation",
+  "player_animationP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_attack",
+  "player_attackP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_attack_check",
+  "player_attack_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_attack_check_old",
+  "player_attack_check_oldP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_bikethrow",
+  "player_bikethrowP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_block_check",
+  "player_block_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_blocking",
+  "player_blockingP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_bullettime_check",
+  "player_bullettime_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_cable_control",
+  "player_cable_controlP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_casual_walking",
+  "player_casual_walkingP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_casual_walking_old",
+  "player_casual_walking_oldP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_crouching",
+  "player_crouchingP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_dead",
+  "player_deadP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_doorbreak",
+  "player_doorbreakP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_draw_cableholdUI",
+  "player_draw_cableholdUIP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_electromagnet",
+  "player_electromagnetP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_exists",
+  "player_existsP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_flamethrower",
+  "player_flamethrowerP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_flying",
+  "player_flyingP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_freeze",
+  "player_freezeP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_get_attackdirection",
+  "player_get_attackdirectionP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_get_throwdirection",
+  "player_get_throwdirectionP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_hurt",
+  "player_hurtP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_hurtfall",
+  "player_hurtfallP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_hurtfly",
+  "player_hurtflyP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_hurtground",
+  "player_hurtgroundP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_idle_ground",
+  "player_idle_groundP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_input",
+  "player_inputP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_moving_ground",
+  "player_moving_groundP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_physics",
+  "player_physicsP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_quickswap",
+  "player_quickswapP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_ragdoll",
+  "player_ragdollP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_recover",
+  "player_recoverP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_rolling",
+  "player_rollingP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_secondary",
+  "player_secondaryP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_secondary_dragon",
+  "player_secondary_dragonP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_shoot_cable",
+  "player_shoot_cableP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_swapitem",
+  "player_swapitemP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_throw",
+  "player_throwP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_walking",
+  "player_walkingP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_wallgrab",
+  "player_wallgrabP9CInstanceS0_R8YYRValueiPPS1_",
+  "player_walljump",
+  "player_walljumpP9CInstanceS0_R8YYRValueiPPS1_",
+  "predictive_line_break_tags",
+  "predictive_line_break_tagsP9CInstanceS0_R8YYRValueiPPS1_",
+  "predictive_line_break_tags_asian",
+  "predictive_line_break_tags_asianP9CInstanceS0_R8YYRValueiPPS1_",
+  "process_game_initialize",
+  "process_game_initializeP9CInstanceS0_R8YYRValueiPPS1_",
+  "process_reload_achievements_pending",
+  "process_reload_achievements_pendingP9CInstanceS0_R8YYRValueiPPS1_",
+  "process_reload_userprefs",
+  "process_reload_userprefsP9CInstanceS0_R8YYRValueiPPS1_",
+  "process_save_achievements_pending",
+  "process_save_achievements_pendingP9CInstanceS0_R8YYRValueiPPS1_",
+  "process_save_userprefs",
+  "process_save_userprefsP9CInstanceS0_R8YYRValueiPPS1_",
+  "pulse_init",
+  "pulse_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "ragdoll_physics",
+  "ragdoll_physicsP9CInstanceS0_R8YYRValueiPPS1_",
+  "record_me",
+  "record_meP9CInstanceS0_R8YYRValueiPPS1_",
+  "remove_doors",
+  "remove_doorsP9CInstanceS0_R8YYRValueiPPS1_",
+  "resolve_sound",
+  "resolve_soundP9CInstanceS0_R8YYRValueiPPS1_",
+  "restore_doors",
+  "restore_doorsP9CInstanceS0_R8YYRValueiPPS1_",
+  "room_transition",
+  "room_transitionP9CInstanceS0_R8YYRValueiPPS1_",
+  "room_transition_fade",
+  "room_transition_fadeP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_achievements",
+  "save_achievementsP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_controls",
+  "save_controlsP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_current_speedrun",
+  "save_current_speedrunP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_game",
+  "save_gameP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_options",
+  "save_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_speedrun_options",
+  "save_speedrun_optionsP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_variable",
+  "save_variableP9CInstanceS0_R8YYRValueiPPS1_",
+  "save_version_number",
+  "save_version_numberP9CInstanceS0_R8YYRValueiPPS1_",
+  "scrGetLang",
+  "scrGetLangP9CInstanceS0_R8YYRValueiPPS1_",
+  "scrTelemetryControl",
+  "scrTelemetryControlP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_addChoice",
+  "scr_addChoiceP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_addChoice_crossout",
+  "scr_addChoice_crossoutP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_addChoice_norepeat",
+  "scr_addChoice_norepeatP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_addInterrupt",
+  "scr_addInterruptP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_addInterrupt_crossout",
+  "scr_addInterrupt_crossoutP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_addInterrupt_norepeat",
+  "scr_addInterrupt_norepeatP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_highlightInteract",
+  "scr_highlightInteractP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_level_complete",
+  "scr_level_completeP9CInstanceS0_R8YYRValueiPPS1_",
+  "scr_level_complete_cut",
+  "scr_level_complete_cutP9CInstanceS0_R8YYRValueiPPS1_",
+  "screen_freeze",
+  "screen_freezeP9CInstanceS0_R8YYRValueiPPS1_",
+  "screen_shake",
+  "screen_shakeP9CInstanceS0_R8YYRValueiPPS1_",
+  "screen_shake_dir",
+  "screen_shake_dirP9CInstanceS0_R8YYRValueiPPS1_",
+  "seen_state",
+  "seen_stateP9CInstanceS0_R8YYRValueiPPS1_",
+  "set_actor_talksfx",
+  "set_actor_talksfxP9CInstanceS0_R8YYRValueiPPS1_",
+  "set_level",
+  "set_levelP9CInstanceS0_R8YYRValueiPPS1_",
+  "set_new_input",
+  "set_new_inputP9CInstanceS0_R8YYRValueiPPS1_",
+  "set_windowsize",
+  "set_windowsizeP9CInstanceS0_R8YYRValueiPPS1_",
+  "setup_speedrun_vars",
+  "setup_speedrun_varsP9CInstanceS0_R8YYRValueiPPS1_",
+  "shift_textbox",
+  "shift_textboxP9CInstanceS0_R8YYRValueiPPS1_",
+  "shift_textbox_arrow_horizontal",
+  "shift_textbox_arrow_horizontalP9CInstanceS0_R8YYRValueiPPS1_",
+  "show_hint",
+  "show_hintP9CInstanceS0_R8YYRValueiPPS1_",
+  "slash_hit",
+  "slash_hitP9CInstanceS0_R8YYRValueiPPS1_",
+  "slope_check",
+  "slope_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "slope_land_check",
+  "slope_land_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "smoke_blocked",
+  "smoke_blockedP9CInstanceS0_R8YYRValueiPPS1_",
+  "softbody_constraint",
+  "softbody_constraintP9CInstanceS0_R8YYRValueiPPS1_",
+  "softbody_constraint_strong",
+  "softbody_constraint_strongP9CInstanceS0_R8YYRValueiPPS1_",
+  "stealth_init",
+  "stealth_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "stop_music_sudden",
+  "stop_music_suddenP9CInstanceS0_R8YYRValueiPPS1_",
+  "switch_save_end",
+  "switch_save_endP9CInstanceS0_R8YYRValueiPPS1_",
+  "switch_saveload_begin",
+  "switch_saveload_beginP9CInstanceS0_R8YYRValueiPPS1_",
+  "textbox_explode",
+  "textbox_explodeP9CInstanceS0_R8YYRValueiPPS1_",
+  "textbox_set_outline_color",
+  "textbox_set_outline_colorP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_add",
+  "tile_addP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_blood_map",
+  "tile_blood_mapP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_bump_map",
+  "tile_bump_mapP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_exists",
+  "tile_existsP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_get_background",
+  "tile_get_backgroundP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_get_height",
+  "tile_get_heightP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_get_left",
+  "tile_get_leftP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_get_top",
+  "tile_get_topP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_get_width",
+  "tile_get_widthP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_layer_delete",
+  "tile_layer_deleteP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_layer_find",
+  "tile_layer_findP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_layer_move",
+  "tile_layer_moveP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_layer_move_init",
+  "tile_layer_move_initP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_layer_shift",
+  "tile_layer_shiftP9CInstanceS0_R8YYRValueiPPS1_",
+  "tile_set_scale",
+  "tile_set_scaleP9CInstanceS0_R8YYRValueiPPS1_",
+  "timer_to_string",
+  "timer_to_stringP9CInstanceS0_R8YYRValueiPPS1_",
+  "titlemenu_add_choice",
+  "titlemenu_add_choiceP9CInstanceS0_R8YYRValueiPPS1_",
+  "translate_option",
+  "translate_optionP9CInstanceS0_R8YYRValueiPPS1_",
+  "trigger_steam_achievement",
+  "trigger_steam_achievementP9CInstanceS0_R8YYRValueiPPS1_",
+  "trigger_xbox_achievement",
+  "trigger_xbox_achievementP9CInstanceS0_R8YYRValueiPPS1_",
+  "turret_aim",
+  "turret_aimP9CInstanceS0_R8YYRValueiPPS1_",
+  "turret_line_of_sight",
+  "turret_line_of_sightP9CInstanceS0_R8YYRValueiPPS1_",
+  "update_light_array",
+  "update_light_arrayP9CInstanceS0_R8YYRValueiPPS1_",
+  "update_light_array_ext",
+  "update_light_array_extP9CInstanceS0_R8YYRValueiPPS1_",
+  "update_light_array_sorted",
+  "update_light_array_sortedP9CInstanceS0_R8YYRValueiPPS1_",
+  "update_region",
+  "update_regionP9CInstanceS0_R8YYRValueiPPS1_",
+  "update_seen_states",
+  "update_seen_statesP9CInstanceS0_R8YYRValueiPPS1_",
+  "wall_check",
+  "wall_checkP9CInstanceS0_R8YYRValueiPPS1_",
+  "wallcam_compute_angle",
+  "wallcam_compute_angleP9CInstanceS0_R8YYRValueiPPS1_",
+  "waypoint_compute",
+  "waypoint_computeP9CInstanceS0_R8YYRValueiPPS1_",
+  "waypoint_compute_OLD",
+  "waypoint_compute_OLDP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_abort_loading",
+  "xbox_abort_loadingP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_change_user",
+  "xbox_change_userP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_create_profile_pause",
+  "xbox_create_profile_pauseP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_flash_load",
+  "xbox_flash_loadP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_flash_load_speedrun",
+  "xbox_flash_load_speedrunP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_flash_save",
+  "xbox_flash_saveP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_flash_save_speedrun",
+  "xbox_flash_save_speedrunP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_get_os_language",
+  "xbox_get_os_languageP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_kick_to_title",
+  "xbox_kick_to_titleP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_pause_game",
+  "xbox_pause_gameP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_process_pending_achievements",
+  "xbox_process_pending_achievementsP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_reset_game_data",
+  "xbox_reset_game_dataP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_reset_gamertag",
+  "xbox_reset_gamertagP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_reset_save",
+  "xbox_reset_saveP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_room_is_game_room",
+  "xbox_room_is_game_roomP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_room_start_set_rich_presence",
+  "xbox_room_start_set_rich_presenceP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_save_end",
+  "xbox_save_endP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_set_rich_presence",
+  "xbox_set_rich_presenceP9CInstanceS0_R8YYRValueiPPS1_",
+  "xbox_unpause_game",
+  "xbox_unpause_gameP9CInstanceS0_R8YYRValueiPPS1_"
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "file_bytes": 72005964,
+ "header": "FORM..GEN8",
+ "chunk_table_offset": 992,
+ "chunks": [
+  {
+   "name": "OPTN",
+   "offset": 1000,
+   "size": 120
+  },
+  {
+   "name": "LANG",
+   "offset": 1128,
+   "size": 24
+  },
+  {
+   "name": "EXTN",
+   "offset": 1160,
+   "size": 1112
+  },
+  {
+   "name": "SOND",
+   "offset": 2280,
+   "size": 38856
+  },
+  {
+   "name": "AGRP",
+   "offset": 41144,
+   "size": 56
+  },
+  {
+   "name": "SPRT",
+   "offset": 41208,
+   "size": 311656
+  },
+  {
+   "name": "BGND",
+   "offset": 352872,
+   "size": 134024
+  },
+  {
+   "name": "PATH",
+   "offset": 486904,
+   "size": 8
+  },
+  {
+   "name": "SCPT",
+   "offset": 486920,
+   "size": 43096
+  },
+  {
+   "name": "GLOB",
+   "offset": 530024,
+   "size": 2776
+  },
+  {
+   "name": "SHDR",
+   "offset": 532808,
+   "size": 776
+  },
+  {
+   "name": "FONT",
+   "offset": 533592,
+   "size": 278328
+  },
+  {
+   "name": "TMLN",
+   "offset": 811928,
+   "size": 8
+  },
+  {
+   "name": "OBJT",
+   "offset": 811944,
+   "size": 456376
+  },
+  {
+   "name": "FEDS",
+   "offset": 1268328,
+   "size": 8
+  },
+  {
+   "name": "ACRV",
+   "offset": 1268344,
+   "size": 8
+  },
+  {
+   "name": "SEQN",
+   "offset": 1268360,
+   "size": 8
+  },
+  {
+   "name": "TAGS",
+   "offset": 1268376,
+   "size": 104
+  },
+  {
+   "name": "ROOM",
+   "offset": 1268488,
+   "size": 3364328
+  },
+  {
+   "name": "DAFL",
+   "offset": 4632824,
+   "size": 8
+  },
+  {
+   "name": "EMBI",
+   "offset": 4632840,
+   "size": 24
+  },
+  {
+   "name": "PSEM",
+   "offset": 4632872,
+   "size": 8
+  },
+  {
+   "name": "PSYS",
+   "offset": 4632888,
+   "size": 8
+  },
+  {
+   "name": "TPAG",
+   "offset": 4632904,
+   "size": 381528
+  },
+  {
+   "name": "TGIN",
+   "offset": 5014440,
+   "size": 12408
+  },
+  {
+   "name": "FEAT",
+   "offset": 5026856,
+   "size": 72
+  },
+  {
+   "name": "STRG",
+   "offset": 5026936,
+   "size": 2540552
+  },
+  {
+   "name": "TXTR",
+   "offset": 7567496,
+   "size": 10324840
+  },
+  {
+   "name": "AUDO",
+   "offset": 17892344,
+   "size": 54113620
+  }
+ ],
+ "ends_at": 72005964,
+ "covers_file": true
+}

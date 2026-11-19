@@ -1,0 +1,9 @@
+{
+  "appId": "com.example.chendao",
+  "appName": "刀客陈霜",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false
+  }
+}

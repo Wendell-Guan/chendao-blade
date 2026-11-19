@@ -1,0 +1,20 @@
+{
+  "name": "chendao-blade",
+  "version": "0.1.0",
+  "private": true,
+  "description": "原创原型：刀客陈霜 · 第一关（Web 版，可用 Capacitor 打包 APK）",
+  "scripts": {
+    "serve": "node serve.js",
+    "cap:add": "npx cap add android",
+    "cap:sync": "npx cap sync android",
+    "apk:debug": "cd android && ./gradlew assembleDebug",
+    "apk:release": "cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}

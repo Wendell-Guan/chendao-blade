@@ -1,0 +1,167 @@
+{
+ "apk": {
+  "sha256": "0fa4000a45a181368047d3a19edcdd9a0181effd2eb9bfbacd7112f3287e9413",
+  "bytes": 219728776,
+  "members": 1575
+ },
+ "note": "APK 本体不入库（>100MB 且为第三方重打包样本）。此文件只记录身份与结构，可凭 sha256 复核。",
+ "dex": [
+  {
+   "name": "classes.dex",
+   "size": 683632
+  },
+  {
+   "name": "classes2.dex",
+   "size": 8465000
+  },
+  {
+   "name": "classes3.dex",
+   "size": 8512268
+  },
+  {
+   "name": "classes4.dex",
+   "size": 7969312
+  },
+  {
+   "name": "classes5.dex",
+   "size": 634392
+  },
+  {
+   "name": "classes6.dex",
+   "size": 12195796
+  }
+ ],
+ "native_libs": [
+  {
+   "name": "lib/arm64-v8a/libbacktrace-native.so",
+   "size": 5212624
+  },
+  {
+   "name": "lib/arm64-v8a/libRMS.so",
+   "size": 718112
+  },
+  {
+   "name": "lib/arm64-v8a/libsqlcipher.so",
+   "size": 3598712
+  },
+  {
+   "name": "lib/arm64-v8a/libyoyo.so",
+   "size": 76489056
+  }
+ ],
+ "largest_members": [
+  {
+   "name": "lib/arm64-v8a/libyoyo.so",
+   "size": 76489056
+  },
+  {
+   "name": "assets/assets/game.droid",
+   "size": 72005964
+  },
+  {
+   "name": "assets/assets/audiogroup2.dat",
+   "size": 14013600
+  },
+  {
+   "name": "classes6.dex",
+   "size": 12195796
+  },
+  {
+   "name": "assets/assets/audiogroup3.dat",
+   "size": 11453378
+  },
+  {
+   "name": "classes3.dex",
+   "size": 8512268
+  },
+  {
+   "name": "classes2.dex",
+   "size": 8465000
+  },
+  {
+   "name": "classes4.dex",
+   "size": 7969312
+  },
+  {
+   "name": "lib/arm64-v8a/libbacktrace-native.so",
+   "size": 5212624
+  },
+  {
+   "name": "assets/assets/song_bunker_2.ogg",
+   "size": 3838245
+  },
+  {
+   "name": "assets/assets/song_thirddistrict.ogg",
+   "size": 3673641
+  },
+  {
+   "name": "assets/assets/song_bunker_1.ogg",
+   "size": 3671065
+  },
+  {
+   "name": "lib/arm64-v8a/libsqlcipher.so",
+   "size": 3598712
+  },
+  {
+   "name": "assets/assets/audiogroup1.dat",
+   "size": 3339257
+  },
+  {
+   "name": "assets/assets/audiogroup4.dat",
+   "size": 3090182
+  },
+  {
+   "name": "assets/assets/song_drivingforce.ogg",
+   "size": 2884485
+  },
+  {
+   "name": "assets/assets/song_katanazero.ogg",
+   "size": 2766389
+  },
+  {
+   "name": "assets/assets/song_slaughterhouse.ogg",
+   "size": 2591715
+  },
+  {
+   "name": "assets/assets/song_edm.ogg",
+   "size": 2583899
+  },
+  {
+   "name": "assets/assets/song_dragon.ogg",
+   "size": 2521932
+  }
+ ],
+ "signature": {
+  "schemes_present": [
+   "v1",
+   "v2",
+   "v3"
+  ],
+  "certs": [
+   {
+    "scheme": "v2",
+    "subject": "CN=5play.ru,O=5play.ru",
+    "issuer": "CN=5play.ru,O=5play.ru",
+    "sha256": "b4f5373f29c0ca39c7fef118b89cf0748cff9853eec27b5796c9566a81f3f23f",
+    "not_before": "2018-09-20 19:35:00+00:00",
+    "not_after": "2048-11-11 19:35:00+00:00"
+   },
+   {
+    "scheme": "v3",
+    "subject": "CN=5play.ru,O=5play.ru",
+    "issuer": "CN=5play.ru,O=5play.ru",
+    "sha256": "b4f5373f29c0ca39c7fef118b89cf0748cff9853eec27b5796c9566a81f3f23f",
+    "not_before": "2018-09-20 19:35:00+00:00",
+    "not_after": "2048-11-11 19:35:00+00:00"
+   },
+   {
+    "scheme": "v1",
+    "subject": "CN=5play.ru,O=5play.ru",
+    "issuer": "CN=5play.ru,O=5play.ru",
+    "sha256": "b4f5373f29c0ca39c7fef118b89cf0748cff9853eec27b5796c9566a81f3f23f",
+    "not_before": "2018-09-20 19:35:00+00:00",
+    "not_after": "2048-11-11 19:35:00+00:00"
+   }
+  ]
+ }
+}

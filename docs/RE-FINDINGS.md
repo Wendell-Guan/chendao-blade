@@ -54,6 +54,28 @@
 - 混淆：R8 + 292 个字符串解密器（`char[32767]`，`seed=(seed+(seed^i)+K)%63`）→ 18,454 条字符串
 - 包形态：Play AAB（`base + DynamicAssetDeliveryFiles`）+ `stamp = play.google.com/store`
 
+## 6.5 ★ 实测修正（2026-11-20，MuMu Android 15）
+
+本报告早期版本称「v2/v3 声明的内容摘要与当前字节不符，属伪签名，可能装不上」。**该结论已被实测推翻**：
+
+| 项 | 实测结果 |
+|---|---|
+| 模拟器 | MuMu 模拟器，实例 **Android 15.0**（`MuMuManager info` 确认，hyperv_enabled=true） |
+| 安装 | `MuMuManager.exe control -v 0 app install --apk <apk>` → `{"package":"com.netflix.NGP.KatanaZero"}`，退出码 0，耗时 8.2s |
+| 启动 | `control -v 0 app launch --package com.netflix.NGP.KatanaZero` → `state: running`，进入标题界面 |
+| 结论 | **v1/v2/v3 校验全部通过**（Android 15 会严格校验 v2/v3）→ 早期复算实现有误，应以 REA 的 `self_consistent=true` 为准 |
+
+仍然成立的结论：**证书是 `CN=5play.ru` 自签名，非 Netflix 官方**——这一点用证书本身即可证明，与摘要是否自洽无关。
+
+### 新发现：重打包方绕过了 Netflix 认证
+
+启动后**没有出现 Netflix 登录页**，直接进入标题菜单（`新游戏 / 继续 / 选项 / 语言 - 简体中文`，右下 `v1.1.10`）。而官方 Netflix 版在进入游戏前必须通过 `SdkAuthActivity` 登录。
+
+这与 `libRMS.so` 被替换（内嵌 5play logo，顶替 native 字符串解密接口）的推断吻合：**该重打包的核心改动是「去掉 Netflix 认证门」，让非订阅用户也能直接玩**。
+
+> 注意：以上仅为静态/行为观察。是否还有其他改动（例如素材替换、作弊功能）**未证实**；这也意味着该样本不是“原版换个签名”那么轻。
+
+---
 ## 7. 该样本已被第三方改写（不是官方包）
 
 | 证据 | 内容 |
